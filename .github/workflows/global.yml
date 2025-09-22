@@ -43,7 +43,12 @@ jobs:
       - name: Upload to branch global
         run: |
           git fetch origin
-          git checkout -B global $(git rev-parse --verify origin/global 2>/dev/null || echo HEAD)
+          git add TypeConversion.c
+          git commit -m "Prepare new TypeConversion.c"
+          
+          git checkout -f global
+          
+          git checkout main -- TypeConversion.c
           git add TypeConversion.c
           if ! git diff --cached --quiet; then
             git commit -m "Update TypeConversion.c"
