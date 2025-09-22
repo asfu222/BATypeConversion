@@ -1,4 +1,4 @@
-name: Dump TypeConversion Japan
+name: Dump TypeConversion Global
 
 on:
   workflow_dispatch:
@@ -26,9 +26,9 @@ jobs:
       
       - name: Dump Il2Cpp
         run: |
-          curl -L -o ba.xapk "https://d.apkpure.net/b/XAPK/com.YostarJP.BlueArchive?version=latest"
+          curl -L -o ba.xapk "https://d.apkpure.net/b/XAPK/com.nexon.bluearchive?version=latest"
           unzip ba.xapk
-          unzip -j com.YostarJP.BlueArchive.apk assets/bin/Data/Managed/Metadata/global-metadata.dat
+          unzip -j com.nexon.bluearchive.apk assets/bin/Data/Managed/Metadata/global-metadata.dat
           unzip -j config.arm64_v8a.apk lib/arm64-v8a/libil2cpp.so
           chmod +x ./tools/Il2CppInspectorRedux
           ./tools/Il2CppInspectorRedux --select-outputs --cpp-out cpp --json-out metadata.json
@@ -43,11 +43,11 @@ jobs:
       - name: Upload to branch japan
         run: |
           git fetch origin
-          git checkout -B japan $(git rev-parse --verify origin/japan 2>/dev/null || git hash-object -t tree /dev/null)
+          git checkout -B global $(git rev-parse --verify origin/global 2>/dev/null || git hash-object -t tree /dev/null)
           git add TypeConversion.c
           if ! git diff --cached --quiet; then
             git commit -m "Update TypeConversion.c"
-            git push -u origin japan
+            git push -u origin global
           else
             echo "No changes to commit"
           fi
