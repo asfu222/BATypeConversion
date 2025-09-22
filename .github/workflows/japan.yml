@@ -1,0 +1,53 @@
+name: Dump TypeConversion Japan
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  dump:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      
+      - name: Setup git
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+
+      - name: Setup Ghidra
+        run: |
+          curl -L -o ghidra.zip "https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_11.4.2_build/ghidra_11.4.2_PUBLIC_20250826.zip"
+          unzip ghidra.zip
+          mv ghidra_11.4.2_PUBLIC ghidra
+      
+      - name: Dump Il2Cpp
+        run: |
+          curl -L -o ba.xapk "https://d.apkpure.net/b/XAPK/com.YostarJP.BlueArchive?version=latest"
+          unzip ba.xapk
+          unzip -j com.YostarJP.BlueArchive.apk assets/bin/Data/Managed/Metadata/global-metadata.dat
+          unzip -j config.arm64_v8a.apk lib/arm64-v8a/libil2cpp.so
+          chmod +x ./tools/Il2CppInspectorRedux
+          ./tools/Il2CppInspectorRedux --select-outputs --cpp-out cpp --json-out metadata.json
+          python3 ./tools/dump_il2cpp_types.py ./cpp/appdata/il2cpp-types.h ./il2cpp.h
+      
+      - name: Run Ghidra Script
+        run: |
+          mkdir -p ghidraProjects
+          chmod +x ./ghidra/support/pyghidraRun
+          yes | ./ghidra/support/pyghidraRun --headless ghidraProjects ba -Xmx4G -XX:ParallelGCThreads=2 -XX:CICompilerCount=2 -import libil2cpp.so -noanalysis -deleteProject -preScript ./ghidraScripts/dump_type_conversion.py
+      
+      - name: Upload to branch japan
+        run: |
+          git fetch origin
+          git checkout -B japan $(git rev-parse --verify origin/japan 2>/dev/null || echo HEAD)
+          git add TypeConversion.c
+          if ! git diff --cached --quiet; then
+            git commit -m "Update TypeConversion.c"
+            git push -u origin japan
+          else
+            echo "No changes to commit"
+          fi
