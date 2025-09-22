@@ -40,7 +40,7 @@ jobs:
           chmod +x ./ghidra/support/pyghidraRun
           yes | ./ghidra/support/pyghidraRun --headless ghidraProjects ba -Xmx4G -XX:ParallelGCThreads=2 -XX:CICompilerCount=2 -import libil2cpp.so -noanalysis -deleteProject -preScript ./ghidraScripts/dump_type_conversion.py
       
-      - name: Upload to branch japan
+      - name: Upload to branch global
         run: |
           git fetch origin
           git checkout -B global $(git rev-parse --verify origin/global 2>/dev/null || git hash-object -t tree /dev/null)
