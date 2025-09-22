@@ -43,7 +43,7 @@ jobs:
       - name: Upload to branch japan
         run: |
           git fetch origin
-          git checkout -B japan $(git rev-parse --verify origin/japan 2>/dev/null || git hash-object -t tree /dev/null)
+          git checkout -B japan $(git rev-parse --verify origin/japan 2>/dev/null || echo HEAD)
           git add TypeConversion.c
           if ! git diff --cached --quiet; then
             git commit -m "Update TypeConversion.c"
