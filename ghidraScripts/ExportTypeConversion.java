@@ -59,7 +59,7 @@ public class ExportTypeConversion extends GhidraScript {
 			ArrayList<Function> matchingFunctions = new ArrayList<>();
 
 			for (var func : currentProgram.getFunctionManager().getFunctions(true)) {
-				if (func.getName(true).startsWith("MX::NetworkProtocol::ProtocolConverter::ProtocolConverter_typeConversion")) {
+				if (func.getName(true).contains("typeConversion")) {
 					matchingFunctions.add(func);
 					if (matchingFunctions.size() >= 99) {
 						break;
@@ -88,15 +88,22 @@ public class ExportTypeConversion extends GhidraScript {
 				return Integer.compare(n1, n2);
 			});
 			for (DecompiledFunction func : results) {
-				writer.write(func.getC().replace("::", "_").replace("uint ", "uint32_t ").replace("(ProtocolConverter *this,Protocol__Enum protocol,MethodInfo *method)", "(Protocol__Enum protocol)"));
+				writer.write(func.getC()
+				.replace("::ProtocolConverter_", "_")
+				.replace("param_2", "protocol").replace("uVar1", "PVar1")
+				.replace("::", "_").replace("uint ", "uint32_t ")
+				.replace("uint32_t PVar1", "Protocol__Enum PVar1")
+				.replace("uint32_t MX", "int32_t MX")
+				.replace("(undefined8 param_1,uint32_t protocol)", "(Protocol__Enum protocol)")
+				.replace("(ProtocolConverter *this,Protocol__Enum protocol,MethodInfo *method)", "(Protocol__Enum protocol)"));
 			}
 			
-			writer.write("int32_t MX_NetworkProtocol_ProtocolConverter_ProtocolConverter_TypeConversion(uint32_t crc, Protocol__Enum protocol) {\n");
+			writer.write("int32_t MX_NetworkProtocol_ProtocolConverter_TypeConversion(uint32_t crc, Protocol__Enum protocol) {\n");
 			writer.write("    switch (crc % 99) {\n");
 
 			for (int i = 0; i < results.size(); i++) {
 				writer.write(String.format(
-					"        case %d: return MX_NetworkProtocol_ProtocolConverter_ProtocolConverter_typeConversion%d(protocol);\n",
+					"        case %d: return MX_NetworkProtocol_ProtocolConverter_typeConversion%d(protocol);\n",
 					i, i));
 			}
 			writer.write("    }\n");
@@ -110,7 +117,7 @@ public class ExportTypeConversion extends GhidraScript {
 
 			writer.write("EXPORT int32_t TypeConversion(uint32_t crc, int protocol)\n");
 			writer.write("{\n");
-			writer.write("    return MX_NetworkProtocol_ProtocolConverter_ProtocolConverter_TypeConversion(crc, (Protocol__Enum)protocol);\n");
+			writer.write("    return MX_NetworkProtocol_ProtocolConverter_TypeConversion(crc, (Protocol__Enum)protocol);\n");
 			writer.write("}\n\n");
 
 			writer.write("#ifdef BUILDING_PYTHON_EXTENSION\n\n");
