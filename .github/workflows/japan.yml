@@ -2,6 +2,8 @@ name: Dump TypeConversion Japan
 
 on:
   workflow_dispatch:
+  repository_dispatch:
+    types: [dump-japan]
 
 permissions:
   contents: write
@@ -23,8 +25,27 @@ jobs:
           curl -L -o ghidra.zip "https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_11.4.2_build/ghidra_11.4.2_PUBLIC_20250826.zip"
           unzip ghidra.zip
           mv ghidra_11.4.2_PUBLIC ghidra
-      
+ 
+      - name: Get cache key
+        id: get_cache_key
+        run: |
+          LM=$(curl -sI "https://d.apkpure.net/b/XAPK/com.YostarJP.BlueArchive?version=latest" \
+               | grep -i "Last-Modified:" | cut -d' ' -f2-)
+          KEY=$(date -u -d "$LM" +%Y-%m-%dT%H:%M:%SZ || true)
+          echo "key=$KEY" >> $GITHUB_OUTPUT
+
+      - name: Restore Il2Cpp Dump Cache
+        id: cache_il2cpp
+        uses: actions/cache@v4
+        with:
+          path: |
+            libil2cpp.so
+            metadata.json
+            il2cpp.h
+          key: japan-${{ steps.get_cache_key.outputs.key }} 
+
       - name: Dump Il2Cpp
+        if: steps.cache_il2cpp.outputs.cache-hit != 'true'
         run: |
           curl -L -o ba.xapk "https://d.apkpure.net/b/XAPK/com.YostarJP.BlueArchive?version=latest"
           unzip ba.xapk

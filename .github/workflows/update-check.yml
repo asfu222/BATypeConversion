@@ -1,0 +1,69 @@
+name: Update Check
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  dump:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get cache key (JP)
+        id: get_jp_key
+        run: |
+          LM=$(curl -sI "https://d.apkpure.net/b/XAPK/com.YostarJP.BlueArchive?version=latest" \
+               | grep -i "Last-Modified:" | cut -d' ' -f2-)
+          KEY=$(date -u -d "$LM" +%Y-%m-%dT%H:%M:%SZ || true)
+          echo "key=$KEY" >> $GITHUB_OUTPUT
+
+      - name: Check JP version
+        id: jp_cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            libil2cpp.so
+            metadata.json
+            il2cpp.h
+          key: japan-${{ steps.get_jp_key.outputs.key }}
+          lookup-only: true
+          
+      - name: Trigger JP Dump
+        if: steps.jp_cache.outputs.cache-hit != 'true'
+        run: |
+          curl -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            https://api.github.com/repos/${{ github.repository }}/dispatches \
+            -d '{"event_type": "dump-japan"}'
+
+      - name: Get cache key (GL)
+        id: get_gl_key
+        run: |
+          LM=$(curl -sI "https://d.apkpure.net/b/XAPK/com.nexon.bluearchive?version=latest" \
+               | grep -i "Last-Modified:" | cut -d' ' -f2-)
+          KEY=$(date -u -d "$LM" +%Y-%m-%dT%H:%M:%SZ || true)
+          echo "key=$KEY" >> $GITHUB_OUTPUT
+
+      - name: Check GL version
+        id: gl_cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            libil2cpp.so
+            metadata.json
+            il2cpp.h
+          key: global-${{ steps.get_gl_key.outputs.key }}
+          lookup-only: true
+      
+      - name: Trigger GL Dump
+        if: steps.gl_cache.outputs.cache-hit != 'true'
+        run: |
+          curl -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            https://api.github.com/repos/${{ github.repository }}/dispatches \
+            -d '{"event_type": "dump-global"}'
