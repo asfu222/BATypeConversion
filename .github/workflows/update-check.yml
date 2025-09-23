@@ -13,7 +13,7 @@ jobs:
       - name: Get cache key (JP)
         id: get_jp_key
         run: |
-          LM=$(curl -sI "https://d.apkpure.net/b/XAPK/com.YostarJP.BlueArchive?version=latest" \
+          LM=$(curl -sIL "https://d.apkpure.net/b/XAPK/com.YostarJP.BlueArchive?version=latest" \
                | grep -i "Last-Modified:" | cut -d' ' -f2-)
           KEY=$(date -u -d "$LM" +%Y-%m-%dT%H:%M:%SZ || true)
           echo "key=$KEY" >> $GITHUB_OUTPUT
@@ -42,7 +42,7 @@ jobs:
       - name: Get cache key (GL)
         id: get_gl_key
         run: |
-          LM=$(curl -sI "https://d.apkpure.net/b/XAPK/com.nexon.bluearchive?version=latest" \
+          LM=$(curl -sIL "https://d.apkpure.net/b/XAPK/com.nexon.bluearchive?version=latest" \
                | grep -i "Last-Modified:" | cut -d' ' -f2-)
           KEY=$(date -u -d "$LM" +%Y-%m-%dT%H:%M:%SZ || true)
           echo "key=$KEY" >> $GITHUB_OUTPUT
