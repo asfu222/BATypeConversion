@@ -42,6 +42,7 @@ jobs:
             libil2cpp.so
             metadata.json
             il2cpp.h
+            manifest.json
           key: japan-${{ steps.get_cache_key.outputs.key }} 
 
       - name: Dump Il2Cpp
@@ -67,12 +68,14 @@ jobs:
           git add TypeConversion.c
           git commit -m "Prepare new TypeConversion.c"
           
+          VERSION_NAME=$(jq -r '.version_name' manifest.json)
+          
           git checkout -f japan
           
           git checkout main -- TypeConversion.c
           git add TypeConversion.c
           if ! git diff --cached --quiet; then
-            git commit -m "Update TypeConversion.c"
+            git commit -m "$VERSION_NAME"
             git push -u origin japan
           else
             echo "No changes to commit"
