@@ -2,12 +2,16 @@ name: Update Check
 
 on:
   workflow_dispatch:
-
+  schedule:
+    # Run every Tuesday at 03:00, 05:00, and 09:00 UTC
+    - cron: '0 3,5,9 * * 2'
+    # Run everyday at 07:00 UTC
+    - cron: '0 7 * * *'
 permissions:
   contents: write
 
 jobs:
-  dump:
+  update-check:
     runs-on: ubuntu-latest
     steps:
       - name: Get cache key (JP)
