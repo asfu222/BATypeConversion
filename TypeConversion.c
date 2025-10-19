@@ -6069,7 +6069,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion5
           }
         }
       }
-      else if ((uint)protocol < 0x1b5b) {
+      else if ((uint32_t)protocol < 0x1b5b) {
         if (protocol < Protocol__Enum_Mail_List) {
           switch(protocol) {
           case Protocol__Enum_Campaign_List:
@@ -6141,7 +6141,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion5
           }
         }
       }
-      else if ((uint)protocol < 0x232b) {
+      else if ((uint32_t)protocol < 0x232b) {
         if (protocol < Protocol__Enum_Attendance_List) {
           PVar1 = 0x2dc88f4d;
           switch(protocol) {
@@ -6210,8 +6210,8 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion5
         }
       }
     }
-    else if ((uint)protocol < 0x4a4d) {
-      if ((uint)protocol < 0x3e81) {
+    else if ((uint32_t)protocol < 0x4a4d) {
+      if ((uint32_t)protocol < 0x3e81) {
         if (protocol < Protocol__Enum_OpenCondition_List) {
           PVar1 = 0x27405a25;
           switch(protocol) {
@@ -6240,7 +6240,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion5
           }
         }
       }
-      else if ((uint)protocol < 0x4651) {
+      else if ((uint32_t)protocol < 0x4651) {
         PVar1 = 0x65a6b47c;
         switch(protocol) {
         case Protocol__Enum_Raid_List:
@@ -6342,7 +6342,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion5
         }
       }
     }
-    else if ((uint)protocol < 0x5601) {
+    else if ((uint32_t)protocol < 0x5601) {
       PVar1 = 0x4efa4fdd;
       switch(protocol) {
       case Protocol__Enum_Cafe_Get:
@@ -6457,7 +6457,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion5
         }
       }
     }
-    else if ((uint)protocol < 0x5dc3) {
+    else if ((uint32_t)protocol < 0x5dc3) {
       if (protocol < Protocol__Enum_Academy_GetInfo) {
         PVar1 = 0x1548ac93;
         switch(protocol) {
@@ -6500,9 +6500,9 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion5
       }
     }
   }
-  else if ((uint)protocol < 0x9089) {
-    if ((uint)protocol < 0x7919) {
-      if ((uint)protocol < 0x6d75) {
+  else if ((uint32_t)protocol < 0x9089) {
+    if ((uint32_t)protocol < 0x7919) {
+      if ((uint32_t)protocol < 0x6d75) {
         switch(protocol) {
         case Protocol__Enum_Clan_Lobby:
           return 0x3736e0c8;
@@ -6676,7 +6676,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion5
         }
       }
     }
-    else if ((uint)protocol < 0x84d1) {
+    else if ((uint32_t)protocol < 0x84d1) {
       switch(protocol) {
       case Protocol__Enum_MomoTalk_OutLine:
         return 0x64c1f0e2;
@@ -6696,7 +6696,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion5
         return 0x20914bdc;
       }
     }
-    else if ((uint)protocol < 0x8ca1) {
+    else if ((uint32_t)protocol < 0x8ca1) {
       PVar1 = 0xcbba745;
       switch(protocol) {
       case Protocol__Enum_MiniGame_StageList:
@@ -6781,8 +6781,8 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion5
       }
     }
   }
-  else if ((uint)protocol < 0xa806) {
-    if ((uint)protocol < 0x985f) {
+  else if ((uint32_t)protocol < 0xa806) {
+    if ((uint32_t)protocol < 0x985f) {
       switch(protocol) {
       case Protocol__Enum_TimeAttackDungeon_Lobby:
         return 0x3b1856df;
@@ -6813,7 +6813,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion5
         return 0x2121353d;
       }
     }
-    else if ((uint)protocol < 0xa029) {
+    else if ((uint32_t)protocol < 0xa029) {
       PVar1 = 0x50853556;
       switch(protocol) {
       case Protocol__Enum_WorldRaid_Lobby:
@@ -6911,7 +6911,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion5
       }
     }
   }
-  else if ((uint)protocol < 0xb3b4) {
+  else if ((uint32_t)protocol < 0xb3b4) {
     if (protocol < Protocol__Enum_EliminateRaid_Login) {
       if (protocol == Protocol__Enum_CharacterGear_List) {
         return 0x2a0ac025;
@@ -6962,7 +6962,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion5
       }
     }
   }
-  else if ((uint)protocol < 0xbb87) {
+  else if ((uint32_t)protocol < 0xbb87) {
     if (protocol < Protocol__Enum_Field_Sync) {
       if (protocol == Protocol__Enum_Sticker_Login) {
         return 0x426baca3;
@@ -9340,7 +9340,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion8
           }
         }
       }
-      else if ((uint)protocol < 0x1b5b) {
+      else if ((uint32_t)protocol < 0x1b5b) {
         if (protocol < Protocol__Enum_Mail_List) {
           switch(protocol) {
           case Protocol__Enum_Campaign_List:
@@ -9412,7 +9412,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion8
           }
         }
       }
-      else if ((uint)protocol < 0x232b) {
+      else if ((uint32_t)protocol < 0x232b) {
         if (protocol < Protocol__Enum_Attendance_List) {
           PVar1 = 0x3b570d53;
           switch(protocol) {
@@ -9481,8 +9481,8 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion8
         }
       }
     }
-    else if ((uint)protocol < 0x4a4d) {
-      if ((uint)protocol < 0x3e81) {
+    else if ((uint32_t)protocol < 0x4a4d) {
+      if ((uint32_t)protocol < 0x3e81) {
         if (protocol < Protocol__Enum_OpenCondition_List) {
           PVar1 = 0x7d226f9b;
           switch(protocol) {
@@ -9511,7 +9511,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion8
           }
         }
       }
-      else if ((uint)protocol < 0x4651) {
+      else if ((uint32_t)protocol < 0x4651) {
         PVar1 = 0x25cb8367;
         switch(protocol) {
         case Protocol__Enum_Raid_List:
@@ -9613,7 +9613,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion8
         }
       }
     }
-    else if ((uint)protocol < 0x5601) {
+    else if ((uint32_t)protocol < 0x5601) {
       PVar1 = 0x39c253dd;
       switch(protocol) {
       case Protocol__Enum_Cafe_Get:
@@ -9728,7 +9728,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion8
         }
       }
     }
-    else if ((uint)protocol < 0x5dc3) {
+    else if ((uint32_t)protocol < 0x5dc3) {
       if (protocol < Protocol__Enum_Academy_GetInfo) {
         PVar1 = 0x58726517;
         switch(protocol) {
@@ -9771,9 +9771,9 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion8
       }
     }
   }
-  else if ((uint)protocol < 0x9089) {
-    if ((uint)protocol < 0x7919) {
-      if ((uint)protocol < 0x6d75) {
+  else if ((uint32_t)protocol < 0x9089) {
+    if ((uint32_t)protocol < 0x7919) {
+      if ((uint32_t)protocol < 0x6d75) {
         switch(protocol) {
         case Protocol__Enum_Clan_Lobby:
           return 0x613c51d;
@@ -9947,7 +9947,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion8
         }
       }
     }
-    else if ((uint)protocol < 0x84d1) {
+    else if ((uint32_t)protocol < 0x84d1) {
       switch(protocol) {
       case Protocol__Enum_MomoTalk_OutLine:
         return 0x5a4d7a58;
@@ -9967,7 +9967,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion8
         return 0x3020b6c8;
       }
     }
-    else if ((uint)protocol < 0x8ca1) {
+    else if ((uint32_t)protocol < 0x8ca1) {
       PVar1 = 0x652cffbb;
       switch(protocol) {
       case Protocol__Enum_MiniGame_StageList:
@@ -10052,8 +10052,8 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion8
       }
     }
   }
-  else if ((uint)protocol < 0xa806) {
-    if ((uint)protocol < 0x985f) {
+  else if ((uint32_t)protocol < 0xa806) {
+    if ((uint32_t)protocol < 0x985f) {
       switch(protocol) {
       case Protocol__Enum_TimeAttackDungeon_Lobby:
         return 0xca82102;
@@ -10084,7 +10084,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion8
         return 0x54f1536d;
       }
     }
-    else if ((uint)protocol < 0xa029) {
+    else if ((uint32_t)protocol < 0xa029) {
       PVar1 = 0x4b8e9039;
       switch(protocol) {
       case Protocol__Enum_WorldRaid_Lobby:
@@ -10182,7 +10182,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion8
       }
     }
   }
-  else if ((uint)protocol < 0xb3b4) {
+  else if ((uint32_t)protocol < 0xb3b4) {
     if (protocol < Protocol__Enum_EliminateRaid_Login) {
       if (protocol == Protocol__Enum_CharacterGear_List) {
         return 0x7050df72;
@@ -10233,7 +10233,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion8
       }
     }
   }
-  else if ((uint)protocol < 0xbb87) {
+  else if ((uint32_t)protocol < 0xbb87) {
     if (protocol < Protocol__Enum_Field_Sync) {
       if (protocol == Protocol__Enum_Sticker_Login) {
         return 0x41c4a723;
@@ -12600,7 +12600,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion11
           }
         }
       }
-      else if ((uint)protocol < 0x1b5b) {
+      else if ((uint32_t)protocol < 0x1b5b) {
         if (protocol < Protocol__Enum_Mail_List) {
           switch(protocol) {
           case Protocol__Enum_Campaign_List:
@@ -12672,7 +12672,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion11
           }
         }
       }
-      else if ((uint)protocol < 0x232b) {
+      else if ((uint32_t)protocol < 0x232b) {
         if (protocol < Protocol__Enum_Attendance_List) {
           PVar1 = 0x4be901b0;
           switch(protocol) {
@@ -12741,8 +12741,8 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion11
         }
       }
     }
-    else if ((uint)protocol < 0x4a4d) {
-      if ((uint)protocol < 0x3e81) {
+    else if ((uint32_t)protocol < 0x4a4d) {
+      if ((uint32_t)protocol < 0x3e81) {
         if (protocol < Protocol__Enum_OpenCondition_List) {
           PVar1 = 0x2510d159;
           switch(protocol) {
@@ -12771,7 +12771,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion11
           }
         }
       }
-      else if ((uint)protocol < 0x4651) {
+      else if ((uint32_t)protocol < 0x4651) {
         PVar1 = 0x74c65599;
         switch(protocol) {
         case Protocol__Enum_Raid_List:
@@ -12873,7 +12873,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion11
         }
       }
     }
-    else if ((uint)protocol < 0x5601) {
+    else if ((uint32_t)protocol < 0x5601) {
       PVar1 = 0x1ffdeed8;
       switch(protocol) {
       case Protocol__Enum_Cafe_Get:
@@ -12988,7 +12988,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion11
         }
       }
     }
-    else if ((uint)protocol < 0x5dc3) {
+    else if ((uint32_t)protocol < 0x5dc3) {
       if (protocol < Protocol__Enum_Academy_GetInfo) {
         PVar1 = 0x47e04b59;
         switch(protocol) {
@@ -13031,9 +13031,9 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion11
       }
     }
   }
-  else if ((uint)protocol < 0x9089) {
-    if ((uint)protocol < 0x7919) {
-      if ((uint)protocol < 0x6d75) {
+  else if ((uint32_t)protocol < 0x9089) {
+    if ((uint32_t)protocol < 0x7919) {
+      if ((uint32_t)protocol < 0x6d75) {
         switch(protocol) {
         case Protocol__Enum_Clan_Lobby:
           return 0x19a9b873;
@@ -13207,7 +13207,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion11
         }
       }
     }
-    else if ((uint)protocol < 0x84d1) {
+    else if ((uint32_t)protocol < 0x84d1) {
       switch(protocol) {
       case Protocol__Enum_MomoTalk_OutLine:
         return 0xbeb0167;
@@ -13227,7 +13227,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion11
         return 0x6b1b3c1b;
       }
     }
-    else if ((uint)protocol < 0x8ca1) {
+    else if ((uint32_t)protocol < 0x8ca1) {
       PVar1 = 0x4a99a4d7;
       switch(protocol) {
       case Protocol__Enum_MiniGame_StageList:
@@ -13312,8 +13312,8 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion11
       }
     }
   }
-  else if ((uint)protocol < 0xa806) {
-    if ((uint)protocol < 0x985f) {
+  else if ((uint32_t)protocol < 0xa806) {
+    if ((uint32_t)protocol < 0x985f) {
       switch(protocol) {
       case Protocol__Enum_TimeAttackDungeon_Lobby:
         return 0x68284205;
@@ -13344,7 +13344,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion11
         return 0x1728b5b4;
       }
     }
-    else if ((uint)protocol < 0xa029) {
+    else if ((uint32_t)protocol < 0xa029) {
       PVar1 = 0x44286f0e;
       switch(protocol) {
       case Protocol__Enum_WorldRaid_Lobby:
@@ -13442,7 +13442,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion11
       }
     }
   }
-  else if ((uint)protocol < 0xb3b4) {
+  else if ((uint32_t)protocol < 0xb3b4) {
     if (protocol < Protocol__Enum_EliminateRaid_Login) {
       if (protocol == Protocol__Enum_CharacterGear_List) {
         return 0x629f2f9e;
@@ -13493,7 +13493,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion11
       }
     }
   }
-  else if ((uint)protocol < 0xbb87) {
+  else if ((uint32_t)protocol < 0xbb87) {
     if (protocol < Protocol__Enum_Field_Sync) {
       if (protocol == Protocol__Enum_Sticker_Login) {
         return 0x33640906;
@@ -15863,7 +15863,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion14
           }
         }
       }
-      else if ((uint)protocol < 0x1b5b) {
+      else if ((uint32_t)protocol < 0x1b5b) {
         if (protocol < Protocol__Enum_Mail_List) {
           switch(protocol) {
           case Protocol__Enum_Campaign_List:
@@ -15935,7 +15935,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion14
           }
         }
       }
-      else if ((uint)protocol < 0x232b) {
+      else if ((uint32_t)protocol < 0x232b) {
         if (protocol < Protocol__Enum_Attendance_List) {
           PVar1 = 0x39a65e86;
           switch(protocol) {
@@ -16004,8 +16004,8 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion14
         }
       }
     }
-    else if ((uint)protocol < 0x4a4d) {
-      if ((uint)protocol < 0x3e81) {
+    else if ((uint32_t)protocol < 0x4a4d) {
+      if ((uint32_t)protocol < 0x3e81) {
         if (protocol < Protocol__Enum_OpenCondition_List) {
           PVar1 = 0x54b17c52;
           switch(protocol) {
@@ -16034,7 +16034,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion14
           }
         }
       }
-      else if ((uint)protocol < 0x4651) {
+      else if ((uint32_t)protocol < 0x4651) {
         PVar1 = 0x11089b0b;
         switch(protocol) {
         case Protocol__Enum_Raid_List:
@@ -16136,7 +16136,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion14
         }
       }
     }
-    else if ((uint)protocol < 0x5601) {
+    else if ((uint32_t)protocol < 0x5601) {
       PVar1 = 0x6e2a8949;
       switch(protocol) {
       case Protocol__Enum_Cafe_Get:
@@ -16251,7 +16251,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion14
         }
       }
     }
-    else if ((uint)protocol < 0x5dc3) {
+    else if ((uint32_t)protocol < 0x5dc3) {
       if (protocol < Protocol__Enum_Academy_GetInfo) {
         PVar1 = 0x4c51ad6c;
         switch(protocol) {
@@ -16294,9 +16294,9 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion14
       }
     }
   }
-  else if ((uint)protocol < 0x9089) {
-    if ((uint)protocol < 0x7919) {
-      if ((uint)protocol < 0x6d75) {
+  else if ((uint32_t)protocol < 0x9089) {
+    if ((uint32_t)protocol < 0x7919) {
+      if ((uint32_t)protocol < 0x6d75) {
         switch(protocol) {
         case Protocol__Enum_Clan_Lobby:
           return 0x20cc28f0;
@@ -16470,7 +16470,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion14
         }
       }
     }
-    else if ((uint)protocol < 0x84d1) {
+    else if ((uint32_t)protocol < 0x84d1) {
       switch(protocol) {
       case Protocol__Enum_MomoTalk_OutLine:
         return 0xff6a9d5;
@@ -16490,7 +16490,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion14
         return 0x401adae6;
       }
     }
-    else if ((uint)protocol < 0x8ca1) {
+    else if ((uint32_t)protocol < 0x8ca1) {
       PVar1 = 0x6a2559e4;
       switch(protocol) {
       case Protocol__Enum_MiniGame_StageList:
@@ -16575,8 +16575,8 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion14
       }
     }
   }
-  else if ((uint)protocol < 0xa806) {
-    if ((uint)protocol < 0x985f) {
+  else if ((uint32_t)protocol < 0xa806) {
+    if ((uint32_t)protocol < 0x985f) {
       switch(protocol) {
       case Protocol__Enum_TimeAttackDungeon_Lobby:
         return 0x2acdc3ac;
@@ -16607,7 +16607,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion14
         return 0x14772af;
       }
     }
-    else if ((uint)protocol < 0xa029) {
+    else if ((uint32_t)protocol < 0xa029) {
       PVar1 = 0x1fc60a3f;
       switch(protocol) {
       case Protocol__Enum_WorldRaid_Lobby:
@@ -16705,7 +16705,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion14
       }
     }
   }
-  else if ((uint)protocol < 0xb3b4) {
+  else if ((uint32_t)protocol < 0xb3b4) {
     if (protocol < Protocol__Enum_EliminateRaid_Login) {
       if (protocol == Protocol__Enum_CharacterGear_List) {
         return 0x310ac91f;
@@ -16756,7 +16756,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion14
       }
     }
   }
-  else if ((uint)protocol < 0xbb87) {
+  else if ((uint32_t)protocol < 0xbb87) {
     if (protocol < Protocol__Enum_Field_Sync) {
       if (protocol == Protocol__Enum_Sticker_Login) {
         return 0x269db291;
@@ -16951,7 +16951,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion15
           }
         }
       }
-      else if ((uint)protocol < 0x1b5b) {
+      else if ((uint32_t)protocol < 0x1b5b) {
         if (protocol < Protocol__Enum_Mail_List) {
           switch(protocol) {
           case Protocol__Enum_Campaign_List:
@@ -17023,7 +17023,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion15
           }
         }
       }
-      else if ((uint)protocol < 0x232b) {
+      else if ((uint32_t)protocol < 0x232b) {
         if (protocol < Protocol__Enum_Attendance_List) {
           PVar1 = 0x48d6ec86;
           switch(protocol) {
@@ -17092,8 +17092,8 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion15
         }
       }
     }
-    else if ((uint)protocol < 0x4a4d) {
-      if ((uint)protocol < 0x3e81) {
+    else if ((uint32_t)protocol < 0x4a4d) {
+      if ((uint32_t)protocol < 0x3e81) {
         if (protocol < Protocol__Enum_OpenCondition_List) {
           PVar1 = 0x5d8ca86c;
           switch(protocol) {
@@ -17122,7 +17122,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion15
           }
         }
       }
-      else if ((uint)protocol < 0x4651) {
+      else if ((uint32_t)protocol < 0x4651) {
         PVar1 = 0x6ed04d1f;
         switch(protocol) {
         case Protocol__Enum_Raid_List:
@@ -17224,7 +17224,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion15
         }
       }
     }
-    else if ((uint)protocol < 0x5601) {
+    else if ((uint32_t)protocol < 0x5601) {
       PVar1 = 0x4f716ada;
       switch(protocol) {
       case Protocol__Enum_Cafe_Get:
@@ -17339,7 +17339,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion15
         }
       }
     }
-    else if ((uint)protocol < 0x5dc3) {
+    else if ((uint32_t)protocol < 0x5dc3) {
       if (protocol < Protocol__Enum_Academy_GetInfo) {
         PVar1 = 0x6fa365f8;
         switch(protocol) {
@@ -17382,9 +17382,9 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion15
       }
     }
   }
-  else if ((uint)protocol < 0x9089) {
-    if ((uint)protocol < 0x7919) {
-      if ((uint)protocol < 0x6d75) {
+  else if ((uint32_t)protocol < 0x9089) {
+    if ((uint32_t)protocol < 0x7919) {
+      if ((uint32_t)protocol < 0x6d75) {
         switch(protocol) {
         case Protocol__Enum_Clan_Lobby:
           return 0x6e7c4cf8;
@@ -17558,7 +17558,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion15
         }
       }
     }
-    else if ((uint)protocol < 0x84d1) {
+    else if ((uint32_t)protocol < 0x84d1) {
       switch(protocol) {
       case Protocol__Enum_MomoTalk_OutLine:
         return 0x6b9f2062;
@@ -17578,7 +17578,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion15
         return 0x504453db;
       }
     }
-    else if ((uint)protocol < 0x8ca1) {
+    else if ((uint32_t)protocol < 0x8ca1) {
       PVar1 = 0x7140b7bd;
       switch(protocol) {
       case Protocol__Enum_MiniGame_StageList:
@@ -17663,8 +17663,8 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion15
       }
     }
   }
-  else if ((uint)protocol < 0xa806) {
-    if ((uint)protocol < 0x985f) {
+  else if ((uint32_t)protocol < 0xa806) {
+    if ((uint32_t)protocol < 0x985f) {
       switch(protocol) {
       case Protocol__Enum_TimeAttackDungeon_Lobby:
         return 0x2ec71ca9;
@@ -17695,7 +17695,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion15
         return 0x1637028;
       }
     }
-    else if ((uint)protocol < 0xa029) {
+    else if ((uint32_t)protocol < 0xa029) {
       PVar1 = 0x2bf7f9ee;
       switch(protocol) {
       case Protocol__Enum_WorldRaid_Lobby:
@@ -17793,7 +17793,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion15
       }
     }
   }
-  else if ((uint)protocol < 0xb3b4) {
+  else if ((uint32_t)protocol < 0xb3b4) {
     if (protocol < Protocol__Enum_EliminateRaid_Login) {
       if (protocol == Protocol__Enum_CharacterGear_List) {
         return 0x7c60f29c;
@@ -17844,7 +17844,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion15
       }
     }
   }
-  else if ((uint)protocol < 0xbb87) {
+  else if ((uint32_t)protocol < 0xbb87) {
     if (protocol < Protocol__Enum_Field_Sync) {
       if (protocol == Protocol__Enum_Sticker_Login) {
         return 0x7cccc48c;
@@ -18040,7 +18040,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion16
           }
         }
       }
-      else if ((uint)protocol < 0x1b5b) {
+      else if ((uint32_t)protocol < 0x1b5b) {
         if (protocol < Protocol__Enum_Mail_List) {
           switch(protocol) {
           case Protocol__Enum_Campaign_List:
@@ -18112,7 +18112,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion16
           }
         }
       }
-      else if ((uint)protocol < 0x232b) {
+      else if ((uint32_t)protocol < 0x232b) {
         if (protocol < Protocol__Enum_Attendance_List) {
           PVar2 = 0x3eb3f36c;
           switch(protocol) {
@@ -18181,8 +18181,8 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion16
         }
       }
     }
-    else if ((uint)protocol < 0x4a4d) {
-      if ((uint)protocol < 0x3e81) {
+    else if ((uint32_t)protocol < 0x4a4d) {
+      if ((uint32_t)protocol < 0x3e81) {
         if (protocol < Protocol__Enum_OpenCondition_List) {
           PVar2 = 0x720cdbe4;
           switch(protocol) {
@@ -18211,7 +18211,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion16
           }
         }
       }
-      else if ((uint)protocol < 0x4651) {
+      else if ((uint32_t)protocol < 0x4651) {
         PVar2 = 0x69a02e08;
         switch(protocol) {
         case Protocol__Enum_Raid_List:
@@ -18313,7 +18313,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion16
         }
       }
     }
-    else if ((uint)protocol < 0x5601) {
+    else if ((uint32_t)protocol < 0x5601) {
       PVar2 = 0x828f3f4;
       switch(protocol) {
       case Protocol__Enum_Cafe_Get:
@@ -18428,7 +18428,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion16
         }
       }
     }
-    else if ((uint)protocol < 0x5dc3) {
+    else if ((uint32_t)protocol < 0x5dc3) {
       if (protocol < Protocol__Enum_Academy_GetInfo) {
         PVar2 = 0x3fe400b9;
         switch(protocol) {
@@ -18471,9 +18471,9 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion16
       }
     }
   }
-  else if ((uint)protocol < 0x9089) {
-    if ((uint)protocol < 0x7919) {
-      if ((uint)protocol < 0x6d75) {
+  else if ((uint32_t)protocol < 0x9089) {
+    if ((uint32_t)protocol < 0x7919) {
+      if ((uint32_t)protocol < 0x6d75) {
         switch(protocol) {
         case Protocol__Enum_Clan_Lobby:
           return 0x569f7836;
@@ -18647,7 +18647,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion16
         }
       }
     }
-    else if ((uint)protocol < 0x84d1) {
+    else if ((uint32_t)protocol < 0x84d1) {
       switch(protocol) {
       case Protocol__Enum_MomoTalk_OutLine:
         return 0x6a0a852c;
@@ -18670,7 +18670,7 @@ code_r0x0624871c:
         }
       }
     }
-    else if ((uint)protocol < 0x8ca1) {
+    else if ((uint32_t)protocol < 0x8ca1) {
       PVar2 = 0x7b95b358;
       switch(protocol) {
       case Protocol__Enum_MiniGame_StageList:
@@ -18755,8 +18755,8 @@ code_r0x0624871c:
       }
     }
   }
-  else if ((uint)protocol < 0xa806) {
-    if ((uint)protocol < 0x985f) {
+  else if ((uint32_t)protocol < 0xa806) {
+    if ((uint32_t)protocol < 0x985f) {
       switch(protocol) {
       case Protocol__Enum_TimeAttackDungeon_Lobby:
         return 0x54545c53;
@@ -18787,7 +18787,7 @@ code_r0x0624871c:
         return 0x4ed11eed;
       }
     }
-    else if ((uint)protocol < 0xa029) {
+    else if ((uint32_t)protocol < 0xa029) {
       PVar2 = 0x200c0d14;
       switch(protocol) {
       case Protocol__Enum_WorldRaid_Lobby:
@@ -18885,7 +18885,7 @@ code_r0x0624871c:
       }
     }
   }
-  else if ((uint)protocol < 0xb3b4) {
+  else if ((uint32_t)protocol < 0xb3b4) {
     if (protocol < Protocol__Enum_EliminateRaid_Login) {
       if (protocol == Protocol__Enum_CharacterGear_List) {
         return 0x13af5ade;
@@ -18936,7 +18936,7 @@ code_r0x0624871c:
       }
     }
   }
-  else if ((uint)protocol < 0xbb87) {
+  else if ((uint32_t)protocol < 0xbb87) {
     if (protocol < Protocol__Enum_Field_Sync) {
       if (protocol == Protocol__Enum_Sticker_Login) {
         return 0x28a865a4;
@@ -24568,7 +24568,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion22
           }
         }
       }
-      else if ((uint)protocol < 0x1b5b) {
+      else if ((uint32_t)protocol < 0x1b5b) {
         if (protocol < Protocol__Enum_Mail_List) {
           switch(protocol) {
           case Protocol__Enum_Campaign_List:
@@ -24640,7 +24640,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion22
           }
         }
       }
-      else if ((uint)protocol < 0x232b) {
+      else if ((uint32_t)protocol < 0x232b) {
         if (protocol < Protocol__Enum_Attendance_List) {
           PVar2 = 0x132ca4d4;
           switch(protocol) {
@@ -24709,8 +24709,8 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion22
         }
       }
     }
-    else if ((uint)protocol < 0x4a4d) {
-      if ((uint)protocol < 0x3e81) {
+    else if ((uint32_t)protocol < 0x4a4d) {
+      if ((uint32_t)protocol < 0x3e81) {
         if (protocol < Protocol__Enum_OpenCondition_List) {
           PVar2 = 0xaa4dcd9;
           switch(protocol) {
@@ -24739,7 +24739,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion22
           }
         }
       }
-      else if ((uint)protocol < 0x4651) {
+      else if ((uint32_t)protocol < 0x4651) {
         PVar2 = 0x2db2f30d;
         switch(protocol) {
         case Protocol__Enum_Raid_List:
@@ -24842,7 +24842,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion22
         }
       }
     }
-    else if ((uint)protocol < 0x5601) {
+    else if ((uint32_t)protocol < 0x5601) {
       PVar2 = 0x618de97a;
       switch(protocol) {
       case Protocol__Enum_Cafe_Get:
@@ -24957,7 +24957,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion22
         }
       }
     }
-    else if ((uint)protocol < 0x5dc3) {
+    else if ((uint32_t)protocol < 0x5dc3) {
       if (protocol < Protocol__Enum_Academy_GetInfo) {
         PVar2 = 0x37eaca0f;
         switch(protocol) {
@@ -25000,9 +25000,9 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion22
       }
     }
   }
-  else if ((uint)protocol < 0x9089) {
-    if ((uint)protocol < 0x7919) {
-      if ((uint)protocol < 0x6d75) {
+  else if ((uint32_t)protocol < 0x9089) {
+    if ((uint32_t)protocol < 0x7919) {
+      if ((uint32_t)protocol < 0x6d75) {
         switch(protocol) {
         case Protocol__Enum_Clan_Lobby:
           return 0x5c516a25;
@@ -25179,7 +25179,7 @@ code_r0x0624def8:
         }
       }
     }
-    else if ((uint)protocol < 0x84d1) {
+    else if ((uint32_t)protocol < 0x84d1) {
       switch(protocol) {
       case Protocol__Enum_MomoTalk_OutLine:
         return 0x12dd1581;
@@ -25199,7 +25199,7 @@ code_r0x0624def8:
         return 0x79422cc0;
       }
     }
-    else if ((uint)protocol < 0x8ca1) {
+    else if ((uint32_t)protocol < 0x8ca1) {
       PVar2 = 0x1982a3b4;
       switch(protocol) {
       case Protocol__Enum_MiniGame_StageList:
@@ -25284,8 +25284,8 @@ code_r0x0624def8:
       }
     }
   }
-  else if ((uint)protocol < 0xa806) {
-    if ((uint)protocol < 0x985f) {
+  else if ((uint32_t)protocol < 0xa806) {
+    if ((uint32_t)protocol < 0x985f) {
       switch(protocol) {
       case Protocol__Enum_TimeAttackDungeon_Lobby:
         return 0x29913868;
@@ -25319,7 +25319,7 @@ code_r0x0624d740:
         }
       }
     }
-    else if ((uint)protocol < 0xa029) {
+    else if ((uint32_t)protocol < 0xa029) {
       PVar2 = 0x340f9004;
       switch(protocol) {
       case Protocol__Enum_WorldRaid_Lobby:
@@ -25417,7 +25417,7 @@ code_r0x0624d740:
       }
     }
   }
-  else if ((uint)protocol < 0xb3b4) {
+  else if ((uint32_t)protocol < 0xb3b4) {
     if (protocol < Protocol__Enum_EliminateRaid_Login) {
       if (protocol == Protocol__Enum_CharacterGear_List) {
         return 0x5d82bcf0;
@@ -25468,7 +25468,7 @@ code_r0x0624d740:
       }
     }
   }
-  else if ((uint)protocol < 0xbb87) {
+  else if ((uint32_t)protocol < 0xbb87) {
     if (protocol < Protocol__Enum_Field_Sync) {
       if (protocol == Protocol__Enum_Sticker_Login) {
         return 0x64566ca7;
@@ -28934,7 +28934,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion26
           }
         }
       }
-      else if ((uint)protocol < 0x1b5b) {
+      else if ((uint32_t)protocol < 0x1b5b) {
         if (protocol < Protocol__Enum_Mail_List) {
           switch(protocol) {
           case Protocol__Enum_Campaign_List:
@@ -29006,7 +29006,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion26
           }
         }
       }
-      else if ((uint)protocol < 0x232b) {
+      else if ((uint32_t)protocol < 0x232b) {
         if (protocol < Protocol__Enum_Attendance_List) {
           PVar1 = 0x7de39ae4;
           switch(protocol) {
@@ -29075,8 +29075,8 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion26
         }
       }
     }
-    else if ((uint)protocol < 0x4a4d) {
-      if ((uint)protocol < 0x3e81) {
+    else if ((uint32_t)protocol < 0x4a4d) {
+      if ((uint32_t)protocol < 0x3e81) {
         if (protocol < Protocol__Enum_OpenCondition_List) {
           PVar1 = 0x5c5a932c;
           switch(protocol) {
@@ -29105,7 +29105,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion26
           }
         }
       }
-      else if ((uint)protocol < 0x4651) {
+      else if ((uint32_t)protocol < 0x4651) {
         PVar1 = 0x6e11f855;
         switch(protocol) {
         case Protocol__Enum_Raid_List:
@@ -29207,7 +29207,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion26
         }
       }
     }
-    else if ((uint)protocol < 0x5601) {
+    else if ((uint32_t)protocol < 0x5601) {
       PVar1 = 0x7bda1000;
       switch(protocol) {
       case Protocol__Enum_Cafe_Get:
@@ -29322,7 +29322,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion26
         }
       }
     }
-    else if ((uint)protocol < 0x5dc3) {
+    else if ((uint32_t)protocol < 0x5dc3) {
       if (protocol < Protocol__Enum_Academy_GetInfo) {
         PVar1 = 0x632326cd;
         switch(protocol) {
@@ -29365,9 +29365,9 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion26
       }
     }
   }
-  else if ((uint)protocol < 0x9089) {
-    if ((uint)protocol < 0x7919) {
-      if ((uint)protocol < 0x6d75) {
+  else if ((uint32_t)protocol < 0x9089) {
+    if ((uint32_t)protocol < 0x7919) {
+      if ((uint32_t)protocol < 0x6d75) {
         switch(protocol) {
         case Protocol__Enum_Clan_Lobby:
           return 0x4e94aa6d;
@@ -29541,7 +29541,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion26
         }
       }
     }
-    else if ((uint)protocol < 0x84d1) {
+    else if ((uint32_t)protocol < 0x84d1) {
       switch(protocol) {
       case Protocol__Enum_MomoTalk_OutLine:
         return 0x2d941bd8;
@@ -29561,7 +29561,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion26
         return 0x147c46fd;
       }
     }
-    else if ((uint)protocol < 0x8ca1) {
+    else if ((uint32_t)protocol < 0x8ca1) {
       PVar1 = 0x68728370;
       switch(protocol) {
       case Protocol__Enum_MiniGame_StageList:
@@ -29646,8 +29646,8 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion26
       }
     }
   }
-  else if ((uint)protocol < 0xa806) {
-    if ((uint)protocol < 0x985f) {
+  else if ((uint32_t)protocol < 0xa806) {
+    if ((uint32_t)protocol < 0x985f) {
       switch(protocol) {
       case Protocol__Enum_TimeAttackDungeon_Lobby:
         return 0x7cf0915d;
@@ -29678,7 +29678,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion26
         return 0x70c1ad8d;
       }
     }
-    else if ((uint)protocol < 0xa029) {
+    else if ((uint32_t)protocol < 0xa029) {
       PVar1 = 0x33d9f860;
       switch(protocol) {
       case Protocol__Enum_WorldRaid_Lobby:
@@ -29776,7 +29776,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion26
       }
     }
   }
-  else if ((uint)protocol < 0xb3b4) {
+  else if ((uint32_t)protocol < 0xb3b4) {
     if (protocol < Protocol__Enum_EliminateRaid_Login) {
       if (protocol == Protocol__Enum_CharacterGear_List) {
         return 0x4cc54f10;
@@ -29827,7 +29827,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion26
       }
     }
   }
-  else if ((uint)protocol < 0xbb87) {
+  else if ((uint32_t)protocol < 0xbb87) {
     if (protocol < Protocol__Enum_Field_Sync) {
       if (protocol == Protocol__Enum_Sticker_Login) {
         return 0x4c3bef5a;
@@ -31111,7 +31111,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion28
           }
         }
       }
-      else if ((uint)protocol < 0x1b5b) {
+      else if ((uint32_t)protocol < 0x1b5b) {
         if (protocol < Protocol__Enum_Mail_List) {
           switch(protocol) {
           case Protocol__Enum_Campaign_List:
@@ -31183,7 +31183,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion28
           }
         }
       }
-      else if ((uint)protocol < 0x232b) {
+      else if ((uint32_t)protocol < 0x232b) {
         if (protocol < Protocol__Enum_Attendance_List) {
           PVar2 = 0xd80c159;
           switch(protocol) {
@@ -31252,8 +31252,8 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion28
         }
       }
     }
-    else if ((uint)protocol < 0x4a4d) {
-      if ((uint)protocol < 0x3e81) {
+    else if ((uint32_t)protocol < 0x4a4d) {
+      if ((uint32_t)protocol < 0x3e81) {
         if (protocol < Protocol__Enum_OpenCondition_List) {
           PVar2 = 0x2beb3e4e;
           switch(protocol) {
@@ -31282,7 +31282,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion28
           }
         }
       }
-      else if ((uint)protocol < 0x4651) {
+      else if ((uint32_t)protocol < 0x4651) {
         PVar2 = 0x40e9b19e;
         switch(protocol) {
         case Protocol__Enum_Raid_List:
@@ -31384,7 +31384,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion28
         }
       }
     }
-    else if ((uint)protocol < 0x5601) {
+    else if ((uint32_t)protocol < 0x5601) {
       PVar2 = 0x34959d24;
       switch(protocol) {
       case Protocol__Enum_Cafe_Get:
@@ -31499,7 +31499,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion28
         }
       }
     }
-    else if ((uint)protocol < 0x5dc3) {
+    else if ((uint32_t)protocol < 0x5dc3) {
       if (protocol < Protocol__Enum_Academy_GetInfo) {
         PVar2 = 0x247923b2;
         switch(protocol) {
@@ -31542,9 +31542,9 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion28
       }
     }
   }
-  else if ((uint)protocol < 0x9089) {
-    if ((uint)protocol < 0x7919) {
-      if ((uint)protocol < 0x6d75) {
+  else if ((uint32_t)protocol < 0x9089) {
+    if ((uint32_t)protocol < 0x7919) {
+      if ((uint32_t)protocol < 0x6d75) {
         switch(protocol) {
         case Protocol__Enum_Clan_Lobby:
           return 0x340ad83;
@@ -31721,7 +31721,7 @@ code_r0x06254968:
         }
       }
     }
-    else if ((uint)protocol < 0x84d1) {
+    else if ((uint32_t)protocol < 0x84d1) {
       switch(protocol) {
       case Protocol__Enum_MomoTalk_OutLine:
         return 0x68576cc2;
@@ -31741,7 +31741,7 @@ code_r0x06254968:
         return 0x46cdadea;
       }
     }
-    else if ((uint)protocol < 0x8ca1) {
+    else if ((uint32_t)protocol < 0x8ca1) {
       PVar2 = 0x22b3a17;
       switch(protocol) {
       case Protocol__Enum_MiniGame_StageList:
@@ -31826,8 +31826,8 @@ code_r0x06254968:
       }
     }
   }
-  else if ((uint)protocol < 0xa806) {
-    if ((uint)protocol < 0x985f) {
+  else if ((uint32_t)protocol < 0xa806) {
+    if ((uint32_t)protocol < 0x985f) {
       switch(protocol) {
       case Protocol__Enum_TimeAttackDungeon_Lobby:
         return 0x889ee12;
@@ -31858,7 +31858,7 @@ code_r0x06254968:
         return 0x23ab297c;
       }
     }
-    else if ((uint)protocol < 0xa029) {
+    else if ((uint32_t)protocol < 0xa029) {
       PVar2 = 0x7d0d454e;
       switch(protocol) {
       case Protocol__Enum_WorldRaid_Lobby:
@@ -31956,7 +31956,7 @@ code_r0x06254968:
       }
     }
   }
-  else if ((uint)protocol < 0xb3b4) {
+  else if ((uint32_t)protocol < 0xb3b4) {
     if (protocol < Protocol__Enum_EliminateRaid_Login) {
       if (protocol == Protocol__Enum_CharacterGear_List) {
         return 0x1ba91297;
@@ -32007,7 +32007,7 @@ code_r0x06254968:
       }
     }
   }
-  else if ((uint)protocol < 0xbb87) {
+  else if ((uint32_t)protocol < 0xbb87) {
     if (protocol < Protocol__Enum_Field_Sync) {
       if (protocol == Protocol__Enum_Sticker_Login) {
         return 0x5da4d0bb;
@@ -32204,7 +32204,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion29
           }
         }
       }
-      else if ((uint)protocol < 0x1b5b) {
+      else if ((uint32_t)protocol < 0x1b5b) {
         if (protocol < Protocol__Enum_Mail_List) {
           switch(protocol) {
           case Protocol__Enum_Campaign_List:
@@ -32276,7 +32276,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion29
           }
         }
       }
-      else if ((uint)protocol < 0x232b) {
+      else if ((uint32_t)protocol < 0x232b) {
         if (protocol < Protocol__Enum_Attendance_List) {
           PVar2 = 0x3599e2fd;
           switch(protocol) {
@@ -32345,8 +32345,8 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion29
         }
       }
     }
-    else if ((uint)protocol < 0x4a4d) {
-      if ((uint)protocol < 0x3e81) {
+    else if ((uint32_t)protocol < 0x4a4d) {
+      if ((uint32_t)protocol < 0x3e81) {
         if (protocol < Protocol__Enum_OpenCondition_List) {
           PVar2 = 0x2b7affe2;
           switch(protocol) {
@@ -32375,7 +32375,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion29
           }
         }
       }
-      else if ((uint)protocol < 0x4651) {
+      else if ((uint32_t)protocol < 0x4651) {
         PVar2 = 0xa27f5b3;
         switch(protocol) {
         case Protocol__Enum_Raid_List:
@@ -32477,7 +32477,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion29
         }
       }
     }
-    else if ((uint)protocol < 0x5601) {
+    else if ((uint32_t)protocol < 0x5601) {
       PVar2 = 0x1cd549da;
       switch(protocol) {
       case Protocol__Enum_Cafe_Get:
@@ -32592,7 +32592,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion29
         }
       }
     }
-    else if ((uint)protocol < 0x5dc3) {
+    else if ((uint32_t)protocol < 0x5dc3) {
       if (protocol < Protocol__Enum_Academy_GetInfo) {
         PVar2 = 0x4aeafe24;
         switch(protocol) {
@@ -32635,9 +32635,9 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion29
       }
     }
   }
-  else if ((uint)protocol < 0x9089) {
-    if ((uint)protocol < 0x7919) {
-      if ((uint)protocol < 0x6d75) {
+  else if ((uint32_t)protocol < 0x9089) {
+    if ((uint32_t)protocol < 0x7919) {
+      if ((uint32_t)protocol < 0x6d75) {
         switch(protocol) {
         case Protocol__Enum_Clan_Lobby:
           return 0x430d4a4;
@@ -32814,7 +32814,7 @@ code_r0x06256574:
         }
       }
     }
-    else if ((uint)protocol < 0x84d1) {
+    else if ((uint32_t)protocol < 0x84d1) {
       switch(protocol) {
       case Protocol__Enum_MomoTalk_OutLine:
         return 0x941507f;
@@ -32834,7 +32834,7 @@ code_r0x06256574:
         return 0x5ae30de9;
       }
     }
-    else if ((uint)protocol < 0x8ca1) {
+    else if ((uint32_t)protocol < 0x8ca1) {
       PVar2 = 0x215ab492;
       switch(protocol) {
       case Protocol__Enum_MiniGame_StageList:
@@ -32919,8 +32919,8 @@ code_r0x06256574:
       }
     }
   }
-  else if ((uint)protocol < 0xa806) {
-    if ((uint)protocol < 0x985f) {
+  else if ((uint32_t)protocol < 0xa806) {
+    if ((uint32_t)protocol < 0x985f) {
       switch(protocol) {
       case Protocol__Enum_TimeAttackDungeon_Lobby:
         return 0xba56d8d;
@@ -32951,7 +32951,7 @@ code_r0x06256574:
         return 0x2bafd990;
       }
     }
-    else if ((uint)protocol < 0xa029) {
+    else if ((uint32_t)protocol < 0xa029) {
       PVar2 = 0x4e5917b6;
       switch(protocol) {
       case Protocol__Enum_WorldRaid_Lobby:
@@ -33049,7 +33049,7 @@ code_r0x06256574:
       }
     }
   }
-  else if ((uint)protocol < 0xb3b4) {
+  else if ((uint32_t)protocol < 0xb3b4) {
     if (protocol < Protocol__Enum_EliminateRaid_Login) {
       if (protocol == Protocol__Enum_CharacterGear_List) {
         return 0x9d85428;
@@ -33100,7 +33100,7 @@ code_r0x06256574:
       }
     }
   }
-  else if ((uint)protocol < 0xbb87) {
+  else if ((uint32_t)protocol < 0xbb87) {
     if (protocol < Protocol__Enum_Field_Sync) {
       if (protocol == Protocol__Enum_Sticker_Login) {
         return 0x3dec9969;
@@ -35466,7 +35466,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion32
           }
         }
       }
-      else if ((uint)protocol < 0x1b5b) {
+      else if ((uint32_t)protocol < 0x1b5b) {
         if (protocol < Protocol__Enum_Mail_List) {
           switch(protocol) {
           case Protocol__Enum_Campaign_List:
@@ -35538,7 +35538,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion32
           }
         }
       }
-      else if ((uint)protocol < 0x232b) {
+      else if ((uint32_t)protocol < 0x232b) {
         if (protocol < Protocol__Enum_Attendance_List) {
           PVar1 = 0x2a2660b2;
           switch(protocol) {
@@ -35607,8 +35607,8 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion32
         }
       }
     }
-    else if ((uint)protocol < 0x4a4d) {
-      if ((uint)protocol < 0x3e81) {
+    else if ((uint32_t)protocol < 0x4a4d) {
+      if ((uint32_t)protocol < 0x3e81) {
         if (protocol < Protocol__Enum_OpenCondition_List) {
           PVar1 = 0x4f9b11d7;
           switch(protocol) {
@@ -35637,7 +35637,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion32
           }
         }
       }
-      else if ((uint)protocol < 0x4651) {
+      else if ((uint32_t)protocol < 0x4651) {
         PVar1 = 0x6cdfa7b9;
         switch(protocol) {
         case Protocol__Enum_Raid_List:
@@ -35739,7 +35739,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion32
         }
       }
     }
-    else if ((uint)protocol < 0x5601) {
+    else if ((uint32_t)protocol < 0x5601) {
       PVar1 = 0xde7fe34;
       switch(protocol) {
       case Protocol__Enum_Cafe_Get:
@@ -35854,7 +35854,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion32
         }
       }
     }
-    else if ((uint)protocol < 0x5dc3) {
+    else if ((uint32_t)protocol < 0x5dc3) {
       if (protocol < Protocol__Enum_Academy_GetInfo) {
         PVar1 = 0x15338a9;
         switch(protocol) {
@@ -35897,9 +35897,9 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion32
       }
     }
   }
-  else if ((uint)protocol < 0x9089) {
-    if ((uint)protocol < 0x7919) {
-      if ((uint)protocol < 0x6d75) {
+  else if ((uint32_t)protocol < 0x9089) {
+    if ((uint32_t)protocol < 0x7919) {
+      if ((uint32_t)protocol < 0x6d75) {
         switch(protocol) {
         case Protocol__Enum_Clan_Lobby:
           return 0x25b8a917;
@@ -36073,7 +36073,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion32
         }
       }
     }
-    else if ((uint)protocol < 0x84d1) {
+    else if ((uint32_t)protocol < 0x84d1) {
       switch(protocol) {
       case Protocol__Enum_MomoTalk_OutLine:
         return 0x674489ce;
@@ -36093,7 +36093,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion32
         return 0x2c6720f5;
       }
     }
-    else if ((uint)protocol < 0x8ca1) {
+    else if ((uint32_t)protocol < 0x8ca1) {
       PVar1 = 0x71c8f3ce;
       switch(protocol) {
       case Protocol__Enum_MiniGame_StageList:
@@ -36178,8 +36178,8 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion32
       }
     }
   }
-  else if ((uint)protocol < 0xa806) {
-    if ((uint)protocol < 0x985f) {
+  else if ((uint32_t)protocol < 0xa806) {
+    if ((uint32_t)protocol < 0x985f) {
       switch(protocol) {
       case Protocol__Enum_TimeAttackDungeon_Lobby:
         return 0x451076bf;
@@ -36210,7 +36210,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion32
         return 0x32c6220d;
       }
     }
-    else if ((uint)protocol < 0xa029) {
+    else if ((uint32_t)protocol < 0xa029) {
       PVar1 = 0x1fb970b6;
       switch(protocol) {
       case Protocol__Enum_WorldRaid_Lobby:
@@ -36308,7 +36308,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion32
       }
     }
   }
-  else if ((uint)protocol < 0xb3b4) {
+  else if ((uint32_t)protocol < 0xb3b4) {
     if (protocol < Protocol__Enum_EliminateRaid_Login) {
       if (protocol == Protocol__Enum_CharacterGear_List) {
         return 0x26b445a2;
@@ -36359,7 +36359,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion32
       }
     }
   }
-  else if ((uint)protocol < 0xbb87) {
+  else if ((uint32_t)protocol < 0xbb87) {
     if (protocol < Protocol__Enum_Field_Sync) {
       if (protocol == Protocol__Enum_Sticker_Login) {
         return 0xd2e13d3;
@@ -39814,7 +39814,7 @@ code_r0x0625b86c:
           }
         }
       }
-      else if ((uint)protocol < 0x1b5b) {
+      else if ((uint32_t)protocol < 0x1b5b) {
         if (protocol < Protocol__Enum_Mail_List) {
           switch(protocol) {
           case Protocol__Enum_Campaign_List:
@@ -39886,7 +39886,7 @@ code_r0x0625b86c:
           }
         }
       }
-      else if ((uint)protocol < 0x232b) {
+      else if ((uint32_t)protocol < 0x232b) {
         if (protocol < Protocol__Enum_Attendance_List) {
           PVar2 = 0x351bf441;
           switch(protocol) {
@@ -39955,8 +39955,8 @@ code_r0x0625b86c:
         }
       }
     }
-    else if ((uint)protocol < 0x4a4d) {
-      if ((uint)protocol < 0x3e81) {
+    else if ((uint32_t)protocol < 0x4a4d) {
+      if ((uint32_t)protocol < 0x3e81) {
         if (protocol < Protocol__Enum_OpenCondition_List) {
           PVar2 = 0xaf2fc9;
           switch(protocol) {
@@ -39985,7 +39985,7 @@ code_r0x0625b86c:
           }
         }
       }
-      else if ((uint)protocol < 0x4651) {
+      else if ((uint32_t)protocol < 0x4651) {
         PVar2 = 0x274006cb;
         switch(protocol) {
         case Protocol__Enum_Raid_List:
@@ -40087,7 +40087,7 @@ code_r0x0625b86c:
         }
       }
     }
-    else if ((uint)protocol < 0x5601) {
+    else if ((uint32_t)protocol < 0x5601) {
       PVar2 = 0x2bb06a8b;
       switch(protocol) {
       case Protocol__Enum_Cafe_Get:
@@ -40202,7 +40202,7 @@ code_r0x0625b86c:
         }
       }
     }
-    else if ((uint)protocol < 0x5dc3) {
+    else if ((uint32_t)protocol < 0x5dc3) {
       if (protocol < Protocol__Enum_Academy_GetInfo) {
         PVar2 = 0xdc8f0d3;
         switch(protocol) {
@@ -40245,9 +40245,9 @@ code_r0x0625b86c:
       }
     }
   }
-  else if ((uint)protocol < 0x9089) {
-    if ((uint)protocol < 0x7919) {
-      if ((uint)protocol < 0x6d75) {
+  else if ((uint32_t)protocol < 0x9089) {
+    if ((uint32_t)protocol < 0x7919) {
+      if ((uint32_t)protocol < 0x6d75) {
         switch(protocol) {
         case Protocol__Enum_Clan_Lobby:
           return 0x3065bff;
@@ -40423,7 +40423,7 @@ code_r0x0625b86c:
         }
       }
     }
-    else if ((uint)protocol < 0x84d1) {
+    else if ((uint32_t)protocol < 0x84d1) {
       switch(protocol) {
       case Protocol__Enum_MomoTalk_OutLine:
         return 0x4ab7d84b;
@@ -40443,7 +40443,7 @@ code_r0x0625b86c:
         return 0x759f8e0e;
       }
     }
-    else if ((uint)protocol < 0x8ca1) {
+    else if ((uint32_t)protocol < 0x8ca1) {
       PVar2 = 0x4dd41b1e;
       switch(protocol) {
       case Protocol__Enum_MiniGame_StageList:
@@ -40528,8 +40528,8 @@ code_r0x0625b86c:
       }
     }
   }
-  else if ((uint)protocol < 0xa806) {
-    if ((uint)protocol < 0x985f) {
+  else if ((uint32_t)protocol < 0xa806) {
+    if ((uint32_t)protocol < 0x985f) {
       switch(protocol) {
       case Protocol__Enum_TimeAttackDungeon_Lobby:
         return 0x15e0dccf;
@@ -40560,7 +40560,7 @@ code_r0x0625b86c:
         return 0x62098c69;
       }
     }
-    else if ((uint)protocol < 0xa029) {
+    else if ((uint32_t)protocol < 0xa029) {
       PVar2 = 0x2edc8f10;
       switch(protocol) {
       case Protocol__Enum_WorldRaid_Lobby:
@@ -40658,7 +40658,7 @@ code_r0x0625b86c:
       }
     }
   }
-  else if ((uint)protocol < 0xb3b4) {
+  else if ((uint32_t)protocol < 0xb3b4) {
     if (protocol < Protocol__Enum_EliminateRaid_Login) {
       if (protocol == Protocol__Enum_CharacterGear_List) {
         return 0x67cc51c9;
@@ -40709,7 +40709,7 @@ code_r0x0625b86c:
       }
     }
   }
-  else if ((uint)protocol < 0xbb87) {
+  else if ((uint32_t)protocol < 0xbb87) {
     if (protocol < Protocol__Enum_Field_Sync) {
       if (protocol == Protocol__Enum_Sticker_Login) {
         return 0x17f2101e;
@@ -43076,7 +43076,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion39
           }
         }
       }
-      else if ((uint)protocol < 0x1b5b) {
+      else if ((uint32_t)protocol < 0x1b5b) {
         if (protocol < Protocol__Enum_Mail_List) {
           switch(protocol) {
           case Protocol__Enum_Campaign_List:
@@ -43148,7 +43148,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion39
           }
         }
       }
-      else if ((uint)protocol < 0x232b) {
+      else if ((uint32_t)protocol < 0x232b) {
         if (protocol < Protocol__Enum_Attendance_List) {
           PVar1 = 0xb6231f6;
           switch(protocol) {
@@ -43217,8 +43217,8 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion39
         }
       }
     }
-    else if ((uint)protocol < 0x4a4d) {
-      if ((uint)protocol < 0x3e81) {
+    else if ((uint32_t)protocol < 0x4a4d) {
+      if ((uint32_t)protocol < 0x3e81) {
         if (protocol < Protocol__Enum_OpenCondition_List) {
           PVar1 = 0x6ba17daf;
           switch(protocol) {
@@ -43247,7 +43247,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion39
           }
         }
       }
-      else if ((uint)protocol < 0x4651) {
+      else if ((uint32_t)protocol < 0x4651) {
         PVar1 = 0xbc5521c;
         switch(protocol) {
         case Protocol__Enum_Raid_List:
@@ -43349,7 +43349,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion39
         }
       }
     }
-    else if ((uint)protocol < 0x5601) {
+    else if ((uint32_t)protocol < 0x5601) {
       PVar1 = 0x5b3e66fa;
       switch(protocol) {
       case Protocol__Enum_Cafe_Get:
@@ -43464,7 +43464,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion39
         }
       }
     }
-    else if ((uint)protocol < 0x5dc3) {
+    else if ((uint32_t)protocol < 0x5dc3) {
       if (protocol < Protocol__Enum_Academy_GetInfo) {
         PVar1 = 0x70c89b40;
         switch(protocol) {
@@ -43507,9 +43507,9 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion39
       }
     }
   }
-  else if ((uint)protocol < 0x9089) {
-    if ((uint)protocol < 0x7919) {
-      if ((uint)protocol < 0x6d75) {
+  else if ((uint32_t)protocol < 0x9089) {
+    if ((uint32_t)protocol < 0x7919) {
+      if ((uint32_t)protocol < 0x6d75) {
         switch(protocol) {
         case Protocol__Enum_Clan_Lobby:
           return 0x175d343d;
@@ -43683,7 +43683,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion39
         }
       }
     }
-    else if ((uint)protocol < 0x84d1) {
+    else if ((uint32_t)protocol < 0x84d1) {
       switch(protocol) {
       case Protocol__Enum_MomoTalk_OutLine:
         return 0x6b8519c8;
@@ -43703,7 +43703,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion39
         return 0x22a7d56c;
       }
     }
-    else if ((uint)protocol < 0x8ca1) {
+    else if ((uint32_t)protocol < 0x8ca1) {
       PVar1 = 0x6d41401;
       switch(protocol) {
       case Protocol__Enum_MiniGame_StageList:
@@ -43788,8 +43788,8 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion39
       }
     }
   }
-  else if ((uint)protocol < 0xa806) {
-    if ((uint)protocol < 0x985f) {
+  else if ((uint32_t)protocol < 0xa806) {
+    if ((uint32_t)protocol < 0x985f) {
       switch(protocol) {
       case Protocol__Enum_TimeAttackDungeon_Lobby:
         return 0x7ef9134c;
@@ -43820,7 +43820,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion39
         return 0xe14dc1b;
       }
     }
-    else if ((uint)protocol < 0xa029) {
+    else if ((uint32_t)protocol < 0xa029) {
       PVar1 = 0x9b83103;
       switch(protocol) {
       case Protocol__Enum_WorldRaid_Lobby:
@@ -43918,7 +43918,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion39
       }
     }
   }
-  else if ((uint)protocol < 0xb3b4) {
+  else if ((uint32_t)protocol < 0xb3b4) {
     if (protocol < Protocol__Enum_EliminateRaid_Login) {
       if (protocol == Protocol__Enum_CharacterGear_List) {
         return 0x316b180;
@@ -43969,7 +43969,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion39
       }
     }
   }
-  else if ((uint)protocol < 0xbb87) {
+  else if ((uint32_t)protocol < 0xbb87) {
     if (protocol < Protocol__Enum_Field_Sync) {
       if (protocol == Protocol__Enum_Sticker_Login) {
         return 0x6b9640d1;
@@ -49607,7 +49607,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion45
           }
         }
       }
-      else if ((uint)protocol < 0x1b5b) {
+      else if ((uint32_t)protocol < 0x1b5b) {
         if (protocol < Protocol__Enum_Mail_List) {
           switch(protocol) {
           case Protocol__Enum_Campaign_List:
@@ -49679,7 +49679,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion45
           }
         }
       }
-      else if ((uint)protocol < 0x232b) {
+      else if ((uint32_t)protocol < 0x232b) {
         if (protocol < Protocol__Enum_Attendance_List) {
           PVar1 = 0x5882356d;
           switch(protocol) {
@@ -49748,8 +49748,8 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion45
         }
       }
     }
-    else if ((uint)protocol < 0x4a4d) {
-      if ((uint)protocol < 0x3e81) {
+    else if ((uint32_t)protocol < 0x4a4d) {
+      if ((uint32_t)protocol < 0x3e81) {
         if (protocol < Protocol__Enum_OpenCondition_List) {
           PVar1 = 0x76a13eb;
           switch(protocol) {
@@ -49778,7 +49778,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion45
           }
         }
       }
-      else if ((uint)protocol < 0x4651) {
+      else if ((uint32_t)protocol < 0x4651) {
         PVar1 = 0x27a497;
         switch(protocol) {
         case Protocol__Enum_Raid_List:
@@ -49880,7 +49880,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion45
         }
       }
     }
-    else if ((uint)protocol < 0x5601) {
+    else if ((uint32_t)protocol < 0x5601) {
       PVar1 = 0x46e015df;
       switch(protocol) {
       case Protocol__Enum_Cafe_Get:
@@ -49995,7 +49995,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion45
         }
       }
     }
-    else if ((uint)protocol < 0x5dc3) {
+    else if ((uint32_t)protocol < 0x5dc3) {
       if (protocol < Protocol__Enum_Academy_GetInfo) {
         PVar1 = 0x76e4a14c;
         switch(protocol) {
@@ -50038,9 +50038,9 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion45
       }
     }
   }
-  else if ((uint)protocol < 0x9089) {
-    if ((uint)protocol < 0x7919) {
-      if ((uint)protocol < 0x6d75) {
+  else if ((uint32_t)protocol < 0x9089) {
+    if ((uint32_t)protocol < 0x7919) {
+      if ((uint32_t)protocol < 0x6d75) {
         switch(protocol) {
         case Protocol__Enum_Clan_Lobby:
           return 0x704db59b;
@@ -50214,7 +50214,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion45
         }
       }
     }
-    else if ((uint)protocol < 0x84d1) {
+    else if ((uint32_t)protocol < 0x84d1) {
       switch(protocol) {
       case Protocol__Enum_MomoTalk_OutLine:
         return 0x54ebadc7;
@@ -50234,7 +50234,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion45
         return 0x209e303b;
       }
     }
-    else if ((uint)protocol < 0x8ca1) {
+    else if ((uint32_t)protocol < 0x8ca1) {
       PVar1 = 0x43f2f144;
       switch(protocol) {
       case Protocol__Enum_MiniGame_StageList:
@@ -50319,8 +50319,8 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion45
       }
     }
   }
-  else if ((uint)protocol < 0xa806) {
-    if ((uint)protocol < 0x985f) {
+  else if ((uint32_t)protocol < 0xa806) {
+    if ((uint32_t)protocol < 0x985f) {
       switch(protocol) {
       case Protocol__Enum_TimeAttackDungeon_Lobby:
         return 0x16fdcff8;
@@ -50351,7 +50351,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion45
         return 0x2a798c05;
       }
     }
-    else if ((uint)protocol < 0xa029) {
+    else if ((uint32_t)protocol < 0xa029) {
       PVar1 = 0x52a3b9a6;
       switch(protocol) {
       case Protocol__Enum_WorldRaid_Lobby:
@@ -50449,7 +50449,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion45
       }
     }
   }
-  else if ((uint)protocol < 0xb3b4) {
+  else if ((uint32_t)protocol < 0xb3b4) {
     if (protocol < Protocol__Enum_EliminateRaid_Login) {
       if (protocol == Protocol__Enum_CharacterGear_List) {
         return 0x1175276e;
@@ -50500,7 +50500,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion45
       }
     }
   }
-  else if ((uint)protocol < 0xbb87) {
+  else if ((uint32_t)protocol < 0xbb87) {
     if (protocol < Protocol__Enum_Field_Sync) {
       if (protocol == Protocol__Enum_Sticker_Login) {
         return 0x68952981;
@@ -52870,7 +52870,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion48
           }
         }
       }
-      else if ((uint)protocol < 0x1b5b) {
+      else if ((uint32_t)protocol < 0x1b5b) {
         if (protocol < Protocol__Enum_Mail_List) {
           switch(protocol) {
           case Protocol__Enum_Campaign_List:
@@ -52942,7 +52942,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion48
           }
         }
       }
-      else if ((uint)protocol < 0x232b) {
+      else if ((uint32_t)protocol < 0x232b) {
         if (protocol < Protocol__Enum_Attendance_List) {
           PVar1 = 0x22e636cc;
           switch(protocol) {
@@ -53011,8 +53011,8 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion48
         }
       }
     }
-    else if ((uint)protocol < 0x4a4d) {
-      if ((uint)protocol < 0x3e81) {
+    else if ((uint32_t)protocol < 0x4a4d) {
+      if ((uint32_t)protocol < 0x3e81) {
         if (protocol < Protocol__Enum_OpenCondition_List) {
           PVar1 = 0x292a725d;
           switch(protocol) {
@@ -53041,7 +53041,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion48
           }
         }
       }
-      else if ((uint)protocol < 0x4651) {
+      else if ((uint32_t)protocol < 0x4651) {
         PVar1 = 0x709d85f0;
         switch(protocol) {
         case Protocol__Enum_Raid_List:
@@ -53143,7 +53143,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion48
         }
       }
     }
-    else if ((uint)protocol < 0x5601) {
+    else if ((uint32_t)protocol < 0x5601) {
       PVar1 = 0x7766cfe2;
       switch(protocol) {
       case Protocol__Enum_Cafe_Get:
@@ -53258,7 +53258,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion48
         }
       }
     }
-    else if ((uint)protocol < 0x5dc3) {
+    else if ((uint32_t)protocol < 0x5dc3) {
       if (protocol < Protocol__Enum_Academy_GetInfo) {
         PVar1 = 0x6a747254;
         switch(protocol) {
@@ -53301,9 +53301,9 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion48
       }
     }
   }
-  else if ((uint)protocol < 0x9089) {
-    if ((uint)protocol < 0x7919) {
-      if ((uint)protocol < 0x6d75) {
+  else if ((uint32_t)protocol < 0x9089) {
+    if ((uint32_t)protocol < 0x7919) {
+      if ((uint32_t)protocol < 0x6d75) {
         switch(protocol) {
         case Protocol__Enum_Clan_Lobby:
           return 0x27ea38bd;
@@ -53477,7 +53477,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion48
         }
       }
     }
-    else if ((uint)protocol < 0x84d1) {
+    else if ((uint32_t)protocol < 0x84d1) {
       switch(protocol) {
       case Protocol__Enum_MomoTalk_OutLine:
         return 0x77aca478;
@@ -53497,7 +53497,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion48
         return 0x310f16ac;
       }
     }
-    else if ((uint)protocol < 0x8ca1) {
+    else if ((uint32_t)protocol < 0x8ca1) {
       PVar1 = 0x6c878d10;
       switch(protocol) {
       case Protocol__Enum_MiniGame_StageList:
@@ -53582,8 +53582,8 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion48
       }
     }
   }
-  else if ((uint)protocol < 0xa806) {
-    if ((uint)protocol < 0x985f) {
+  else if ((uint32_t)protocol < 0xa806) {
+    if ((uint32_t)protocol < 0x985f) {
       switch(protocol) {
       case Protocol__Enum_TimeAttackDungeon_Lobby:
         return 0xe152487;
@@ -53614,7 +53614,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion48
         return 0x45dbf4fc;
       }
     }
-    else if ((uint)protocol < 0xa029) {
+    else if ((uint32_t)protocol < 0xa029) {
       PVar1 = 0x1f913441;
       switch(protocol) {
       case Protocol__Enum_WorldRaid_Lobby:
@@ -53712,7 +53712,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion48
       }
     }
   }
-  else if ((uint)protocol < 0xb3b4) {
+  else if ((uint32_t)protocol < 0xb3b4) {
     if (protocol < Protocol__Enum_EliminateRaid_Login) {
       if (protocol == Protocol__Enum_CharacterGear_List) {
         return 0x7e727c39;
@@ -53763,7 +53763,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion48
       }
     }
   }
-  else if ((uint)protocol < 0xbb87) {
+  else if ((uint32_t)protocol < 0xbb87) {
     if (protocol < Protocol__Enum_Field_Sync) {
       if (protocol == Protocol__Enum_Sticker_Login) {
         return 0x2b8b0f2f;
@@ -55043,7 +55043,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion50
           }
         }
       }
-      else if ((uint)protocol < 0x1b5b) {
+      else if ((uint32_t)protocol < 0x1b5b) {
         if (protocol < Protocol__Enum_Mail_List) {
           switch(protocol) {
           case Protocol__Enum_Campaign_List:
@@ -55115,7 +55115,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion50
           }
         }
       }
-      else if ((uint)protocol < 0x232b) {
+      else if ((uint32_t)protocol < 0x232b) {
         if (protocol < Protocol__Enum_Attendance_List) {
           PVar1 = 0x5e06b95a;
           switch(protocol) {
@@ -55184,8 +55184,8 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion50
         }
       }
     }
-    else if ((uint)protocol < 0x4a4d) {
-      if ((uint)protocol < 0x3e81) {
+    else if ((uint32_t)protocol < 0x4a4d) {
+      if ((uint32_t)protocol < 0x3e81) {
         if (protocol < Protocol__Enum_OpenCondition_List) {
           PVar1 = 0x646fa42;
           switch(protocol) {
@@ -55214,7 +55214,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion50
           }
         }
       }
-      else if ((uint)protocol < 0x4651) {
+      else if ((uint32_t)protocol < 0x4651) {
         PVar1 = 0x761da4fb;
         switch(protocol) {
         case Protocol__Enum_Raid_List:
@@ -55316,7 +55316,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion50
         }
       }
     }
-    else if ((uint)protocol < 0x5601) {
+    else if ((uint32_t)protocol < 0x5601) {
       PVar1 = 0x4bf443c1;
       switch(protocol) {
       case Protocol__Enum_Cafe_Get:
@@ -55431,7 +55431,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion50
         }
       }
     }
-    else if ((uint)protocol < 0x5dc3) {
+    else if ((uint32_t)protocol < 0x5dc3) {
       if (protocol < Protocol__Enum_Academy_GetInfo) {
         PVar1 = 0x67c531b7;
         switch(protocol) {
@@ -55474,9 +55474,9 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion50
       }
     }
   }
-  else if ((uint)protocol < 0x9089) {
-    if ((uint)protocol < 0x7919) {
-      if ((uint)protocol < 0x6d75) {
+  else if ((uint32_t)protocol < 0x9089) {
+    if ((uint32_t)protocol < 0x7919) {
+      if ((uint32_t)protocol < 0x6d75) {
         switch(protocol) {
         case Protocol__Enum_Clan_Lobby:
           return 0x50babec5;
@@ -55650,7 +55650,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion50
         }
       }
     }
-    else if ((uint)protocol < 0x84d1) {
+    else if ((uint32_t)protocol < 0x84d1) {
       switch(protocol) {
       case Protocol__Enum_MomoTalk_OutLine:
         return 0x6cd8803e;
@@ -55670,7 +55670,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion50
         return 0x1c19817;
       }
     }
-    else if ((uint)protocol < 0x8ca1) {
+    else if ((uint32_t)protocol < 0x8ca1) {
       PVar1 = 0x71a2a186;
       switch(protocol) {
       case Protocol__Enum_MiniGame_StageList:
@@ -55755,8 +55755,8 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion50
       }
     }
   }
-  else if ((uint)protocol < 0xa806) {
-    if ((uint)protocol < 0x985f) {
+  else if ((uint32_t)protocol < 0xa806) {
+    if ((uint32_t)protocol < 0x985f) {
       switch(protocol) {
       case Protocol__Enum_TimeAttackDungeon_Lobby:
         return 0x16166303;
@@ -55787,7 +55787,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion50
         return 0x5ff33d42;
       }
     }
-    else if ((uint)protocol < 0xa029) {
+    else if ((uint32_t)protocol < 0xa029) {
       PVar1 = 0x7f5445dc;
       switch(protocol) {
       case Protocol__Enum_WorldRaid_Lobby:
@@ -55885,7 +55885,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion50
       }
     }
   }
-  else if ((uint)protocol < 0xb3b4) {
+  else if ((uint32_t)protocol < 0xb3b4) {
     if (protocol < Protocol__Enum_EliminateRaid_Login) {
       if (protocol == Protocol__Enum_CharacterGear_List) {
         return 0x4e2d4a0b;
@@ -55936,7 +55936,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion50
       }
     }
   }
-  else if ((uint)protocol < 0xbb87) {
+  else if ((uint32_t)protocol < 0xbb87) {
     if (protocol < Protocol__Enum_Field_Sync) {
       if (protocol == Protocol__Enum_Sticker_Login) {
         return 0xdb6f3e4;
@@ -62645,7 +62645,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion57
           }
         }
       }
-      else if ((uint)protocol < 0x1b5b) {
+      else if ((uint32_t)protocol < 0x1b5b) {
         if (protocol < Protocol__Enum_Mail_List) {
           switch(protocol) {
           case Protocol__Enum_Campaign_List:
@@ -62717,7 +62717,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion57
           }
         }
       }
-      else if ((uint)protocol < 0x232b) {
+      else if ((uint32_t)protocol < 0x232b) {
         if (protocol < Protocol__Enum_Attendance_List) {
           PVar1 = 0x7d5f4c0f;
           switch(protocol) {
@@ -62786,8 +62786,8 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion57
         }
       }
     }
-    else if ((uint)protocol < 0x4a4d) {
-      if ((uint)protocol < 0x3e81) {
+    else if ((uint32_t)protocol < 0x4a4d) {
+      if ((uint32_t)protocol < 0x3e81) {
         if (protocol < Protocol__Enum_OpenCondition_List) {
           PVar1 = 0x61ac4850;
           switch(protocol) {
@@ -62816,7 +62816,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion57
           }
         }
       }
-      else if ((uint)protocol < 0x4651) {
+      else if ((uint32_t)protocol < 0x4651) {
         PVar1 = 0x6cad0104;
         switch(protocol) {
         case Protocol__Enum_Raid_List:
@@ -62918,7 +62918,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion57
         }
       }
     }
-    else if ((uint)protocol < 0x5601) {
+    else if ((uint32_t)protocol < 0x5601) {
       PVar1 = 0x8c9886;
       switch(protocol) {
       case Protocol__Enum_Cafe_Get:
@@ -63033,7 +63033,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion57
         }
       }
     }
-    else if ((uint)protocol < 0x5dc3) {
+    else if ((uint32_t)protocol < 0x5dc3) {
       if (protocol < Protocol__Enum_Academy_GetInfo) {
         PVar1 = 0x4253ba3f;
         switch(protocol) {
@@ -63076,9 +63076,9 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion57
       }
     }
   }
-  else if ((uint)protocol < 0x9089) {
-    if ((uint)protocol < 0x7919) {
-      if ((uint)protocol < 0x6d75) {
+  else if ((uint32_t)protocol < 0x9089) {
+    if ((uint32_t)protocol < 0x7919) {
+      if ((uint32_t)protocol < 0x6d75) {
         switch(protocol) {
         case Protocol__Enum_Clan_Lobby:
           return 0x21f718cc;
@@ -63252,7 +63252,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion57
         }
       }
     }
-    else if ((uint)protocol < 0x84d1) {
+    else if ((uint32_t)protocol < 0x84d1) {
       switch(protocol) {
       case Protocol__Enum_MomoTalk_OutLine:
         return 0xb6dc05b;
@@ -63272,7 +63272,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion57
         return 0x2049ebed;
       }
     }
-    else if ((uint)protocol < 0x8ca1) {
+    else if ((uint32_t)protocol < 0x8ca1) {
       PVar1 = 0x250dea9b;
       switch(protocol) {
       case Protocol__Enum_MiniGame_StageList:
@@ -63357,8 +63357,8 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion57
       }
     }
   }
-  else if ((uint)protocol < 0xa806) {
-    if ((uint)protocol < 0x985f) {
+  else if ((uint32_t)protocol < 0xa806) {
+    if ((uint32_t)protocol < 0x985f) {
       switch(protocol) {
       case Protocol__Enum_TimeAttackDungeon_Lobby:
         return 0x162dfd61;
@@ -63389,7 +63389,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion57
         return 0x4d5cf761;
       }
     }
-    else if ((uint)protocol < 0xa029) {
+    else if ((uint32_t)protocol < 0xa029) {
       PVar1 = 0xa0bd48;
       switch(protocol) {
       case Protocol__Enum_WorldRaid_Lobby:
@@ -63487,7 +63487,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion57
       }
     }
   }
-  else if ((uint)protocol < 0xb3b4) {
+  else if ((uint32_t)protocol < 0xb3b4) {
     if (protocol < Protocol__Enum_EliminateRaid_Login) {
       if (protocol == Protocol__Enum_CharacterGear_List) {
         return 0x2edd6f3a;
@@ -63538,7 +63538,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion57
       }
     }
   }
-  else if ((uint)protocol < 0xbb87) {
+  else if ((uint32_t)protocol < 0xbb87) {
     if (protocol < Protocol__Enum_Field_Sync) {
       if (protocol == Protocol__Enum_Sticker_Login) {
         return 0x10b5ae14;
@@ -68075,7 +68075,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion62
           }
         }
       }
-      else if ((uint)protocol < 0x1b5b) {
+      else if ((uint32_t)protocol < 0x1b5b) {
         if (protocol < Protocol__Enum_Mail_List) {
           switch(protocol) {
           case Protocol__Enum_Campaign_List:
@@ -68147,7 +68147,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion62
           }
         }
       }
-      else if ((uint)protocol < 0x232b) {
+      else if ((uint32_t)protocol < 0x232b) {
         if (protocol < Protocol__Enum_Attendance_List) {
           PVar1 = 0x712b8d00;
           switch(protocol) {
@@ -68216,8 +68216,8 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion62
         }
       }
     }
-    else if ((uint)protocol < 0x4a4d) {
-      if ((uint)protocol < 0x3e81) {
+    else if ((uint32_t)protocol < 0x4a4d) {
+      if ((uint32_t)protocol < 0x3e81) {
         if (protocol < Protocol__Enum_OpenCondition_List) {
           PVar1 = 0x35c80745;
           switch(protocol) {
@@ -68246,7 +68246,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion62
           }
         }
       }
-      else if ((uint)protocol < 0x4651) {
+      else if ((uint32_t)protocol < 0x4651) {
         PVar1 = 0x63d59b63;
         switch(protocol) {
         case Protocol__Enum_Raid_List:
@@ -68348,7 +68348,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion62
         }
       }
     }
-    else if ((uint)protocol < 0x5601) {
+    else if ((uint32_t)protocol < 0x5601) {
       PVar1 = 0x5ceaa38;
       switch(protocol) {
       case Protocol__Enum_Cafe_Get:
@@ -68463,7 +68463,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion62
         }
       }
     }
-    else if ((uint)protocol < 0x5dc3) {
+    else if ((uint32_t)protocol < 0x5dc3) {
       if (protocol < Protocol__Enum_Academy_GetInfo) {
         PVar1 = 0x15ed341d;
         switch(protocol) {
@@ -68506,9 +68506,9 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion62
       }
     }
   }
-  else if ((uint)protocol < 0x9089) {
-    if ((uint)protocol < 0x7919) {
-      if ((uint)protocol < 0x6d75) {
+  else if ((uint32_t)protocol < 0x9089) {
+    if ((uint32_t)protocol < 0x7919) {
+      if ((uint32_t)protocol < 0x6d75) {
         switch(protocol) {
         case Protocol__Enum_Clan_Lobby:
           return 0x1d2e7965;
@@ -68682,7 +68682,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion62
         }
       }
     }
-    else if ((uint)protocol < 0x84d1) {
+    else if ((uint32_t)protocol < 0x84d1) {
       switch(protocol) {
       case Protocol__Enum_MomoTalk_OutLine:
         return 0xbd1d585;
@@ -68702,7 +68702,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion62
         return 0xfde34e2;
       }
     }
-    else if ((uint)protocol < 0x8ca1) {
+    else if ((uint32_t)protocol < 0x8ca1) {
       PVar1 = 0x293318c6;
       switch(protocol) {
       case Protocol__Enum_MiniGame_StageList:
@@ -68787,8 +68787,8 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion62
       }
     }
   }
-  else if ((uint)protocol < 0xa806) {
-    if ((uint)protocol < 0x985f) {
+  else if ((uint32_t)protocol < 0xa806) {
+    if ((uint32_t)protocol < 0x985f) {
       switch(protocol) {
       case Protocol__Enum_TimeAttackDungeon_Lobby:
         return 0x4e673755;
@@ -68819,7 +68819,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion62
         return 0xf930bcc;
       }
     }
-    else if ((uint)protocol < 0xa029) {
+    else if ((uint32_t)protocol < 0xa029) {
       PVar1 = 0x2fd9deb0;
       switch(protocol) {
       case Protocol__Enum_WorldRaid_Lobby:
@@ -68917,7 +68917,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion62
       }
     }
   }
-  else if ((uint)protocol < 0xb3b4) {
+  else if ((uint32_t)protocol < 0xb3b4) {
     if (protocol < Protocol__Enum_EliminateRaid_Login) {
       if (protocol == Protocol__Enum_CharacterGear_List) {
         return 0x203c4845;
@@ -68968,7 +68968,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion62
       }
     }
   }
-  else if ((uint)protocol < 0xbb87) {
+  else if ((uint32_t)protocol < 0xbb87) {
     if (protocol < Protocol__Enum_Field_Sync) {
       if (protocol == Protocol__Enum_Sticker_Login) {
         return 0xe25c489;
@@ -74598,7 +74598,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion68
           }
         }
       }
-      else if ((uint)protocol < 0x1b5b) {
+      else if ((uint32_t)protocol < 0x1b5b) {
         if (protocol < Protocol__Enum_Mail_List) {
           switch(protocol) {
           case Protocol__Enum_Campaign_List:
@@ -74670,7 +74670,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion68
           }
         }
       }
-      else if ((uint)protocol < 0x232b) {
+      else if ((uint32_t)protocol < 0x232b) {
         if (protocol < Protocol__Enum_Attendance_List) {
           PVar1 = 0x2c9cd002;
           switch(protocol) {
@@ -74739,8 +74739,8 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion68
         }
       }
     }
-    else if ((uint)protocol < 0x4a4d) {
-      if ((uint)protocol < 0x3e81) {
+    else if ((uint32_t)protocol < 0x4a4d) {
+      if ((uint32_t)protocol < 0x3e81) {
         if (protocol < Protocol__Enum_OpenCondition_List) {
           PVar1 = 0x5b586d40;
           switch(protocol) {
@@ -74769,7 +74769,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion68
           }
         }
       }
-      else if ((uint)protocol < 0x4651) {
+      else if ((uint32_t)protocol < 0x4651) {
         PVar1 = 0x639fbbe8;
         switch(protocol) {
         case Protocol__Enum_Raid_List:
@@ -74871,7 +74871,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion68
         }
       }
     }
-    else if ((uint)protocol < 0x5601) {
+    else if ((uint32_t)protocol < 0x5601) {
       PVar1 = 0x37294557;
       switch(protocol) {
       case Protocol__Enum_Cafe_Get:
@@ -74986,7 +74986,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion68
         }
       }
     }
-    else if ((uint)protocol < 0x5dc3) {
+    else if ((uint32_t)protocol < 0x5dc3) {
       if (protocol < Protocol__Enum_Academy_GetInfo) {
         PVar1 = 0xdc4fbb;
         switch(protocol) {
@@ -75029,9 +75029,9 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion68
       }
     }
   }
-  else if ((uint)protocol < 0x9089) {
-    if ((uint)protocol < 0x7919) {
-      if ((uint)protocol < 0x6d75) {
+  else if ((uint32_t)protocol < 0x9089) {
+    if ((uint32_t)protocol < 0x7919) {
+      if ((uint32_t)protocol < 0x6d75) {
         switch(protocol) {
         case Protocol__Enum_Clan_Lobby:
           return 0xd7cc4c0;
@@ -75205,7 +75205,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion68
         }
       }
     }
-    else if ((uint)protocol < 0x84d1) {
+    else if ((uint32_t)protocol < 0x84d1) {
       switch(protocol) {
       case Protocol__Enum_MomoTalk_OutLine:
         return 0x225f1a3c;
@@ -75225,7 +75225,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion68
         return 0x63bd054b;
       }
     }
-    else if ((uint)protocol < 0x8ca1) {
+    else if ((uint32_t)protocol < 0x8ca1) {
       PVar1 = 0x7db8585d;
       switch(protocol) {
       case Protocol__Enum_MiniGame_StageList:
@@ -75310,8 +75310,8 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion68
       }
     }
   }
-  else if ((uint)protocol < 0xa806) {
-    if ((uint)protocol < 0x985f) {
+  else if ((uint32_t)protocol < 0xa806) {
+    if ((uint32_t)protocol < 0x985f) {
       switch(protocol) {
       case Protocol__Enum_TimeAttackDungeon_Lobby:
         return 0x45b59f8b;
@@ -75342,7 +75342,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion68
         return 0x22beb76a;
       }
     }
-    else if ((uint)protocol < 0xa029) {
+    else if ((uint32_t)protocol < 0xa029) {
       PVar1 = 0xbb7b3e7;
       switch(protocol) {
       case Protocol__Enum_WorldRaid_Lobby:
@@ -75440,7 +75440,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion68
       }
     }
   }
-  else if ((uint)protocol < 0xb3b4) {
+  else if ((uint32_t)protocol < 0xb3b4) {
     if (protocol < Protocol__Enum_EliminateRaid_Login) {
       if (protocol == Protocol__Enum_CharacterGear_List) {
         return 0x5d6596d9;
@@ -75491,7 +75491,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion68
       }
     }
   }
-  else if ((uint)protocol < 0xbb87) {
+  else if ((uint32_t)protocol < 0xbb87) {
     if (protocol < Protocol__Enum_Field_Sync) {
       if (protocol == Protocol__Enum_Sticker_Login) {
         return 0x6e67c081;
@@ -83297,7 +83297,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion76
           }
         }
       }
-      else if ((uint)protocol < 0x1b5b) {
+      else if ((uint32_t)protocol < 0x1b5b) {
         if (protocol < Protocol__Enum_Mail_List) {
           switch(protocol) {
           case Protocol__Enum_Campaign_List:
@@ -83369,7 +83369,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion76
           }
         }
       }
-      else if ((uint)protocol < 0x232b) {
+      else if ((uint32_t)protocol < 0x232b) {
         if (protocol < Protocol__Enum_Attendance_List) {
           PVar1 = 0x1910160a;
           switch(protocol) {
@@ -83438,8 +83438,8 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion76
         }
       }
     }
-    else if ((uint)protocol < 0x4a4d) {
-      if ((uint)protocol < 0x3e81) {
+    else if ((uint32_t)protocol < 0x4a4d) {
+      if ((uint32_t)protocol < 0x3e81) {
         if (protocol < Protocol__Enum_OpenCondition_List) {
           PVar1 = 0x3b38a745;
           switch(protocol) {
@@ -83468,7 +83468,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion76
           }
         }
       }
-      else if ((uint)protocol < 0x4651) {
+      else if ((uint32_t)protocol < 0x4651) {
         PVar1 = 0x46f8e2d9;
         switch(protocol) {
         case Protocol__Enum_Raid_List:
@@ -83570,7 +83570,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion76
         }
       }
     }
-    else if ((uint)protocol < 0x5601) {
+    else if ((uint32_t)protocol < 0x5601) {
       PVar1 = 0x1db1f6d4;
       switch(protocol) {
       case Protocol__Enum_Cafe_Get:
@@ -83685,7 +83685,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion76
         }
       }
     }
-    else if ((uint)protocol < 0x5dc3) {
+    else if ((uint32_t)protocol < 0x5dc3) {
       if (protocol < Protocol__Enum_Academy_GetInfo) {
         PVar1 = 0x13a5a723;
         switch(protocol) {
@@ -83728,9 +83728,9 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion76
       }
     }
   }
-  else if ((uint)protocol < 0x9089) {
-    if ((uint)protocol < 0x7919) {
-      if ((uint)protocol < 0x6d75) {
+  else if ((uint32_t)protocol < 0x9089) {
+    if ((uint32_t)protocol < 0x7919) {
+      if ((uint32_t)protocol < 0x6d75) {
         switch(protocol) {
         case Protocol__Enum_Clan_Lobby:
           return 0x7681766d;
@@ -83904,7 +83904,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion76
         }
       }
     }
-    else if ((uint)protocol < 0x84d1) {
+    else if ((uint32_t)protocol < 0x84d1) {
       switch(protocol) {
       case Protocol__Enum_MomoTalk_OutLine:
         return 0x2d28080c;
@@ -83924,7 +83924,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion76
         return 0x5402dcf2;
       }
     }
-    else if ((uint)protocol < 0x8ca1) {
+    else if ((uint32_t)protocol < 0x8ca1) {
       PVar1 = 0x18cb132;
       switch(protocol) {
       case Protocol__Enum_MiniGame_StageList:
@@ -84009,8 +84009,8 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion76
       }
     }
   }
-  else if ((uint)protocol < 0xa806) {
-    if ((uint)protocol < 0x985f) {
+  else if ((uint32_t)protocol < 0xa806) {
+    if ((uint32_t)protocol < 0x985f) {
       switch(protocol) {
       case Protocol__Enum_TimeAttackDungeon_Lobby:
         return 0x27cadc3e;
@@ -84041,7 +84041,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion76
         return 0x51c33380;
       }
     }
-    else if ((uint)protocol < 0xa029) {
+    else if ((uint32_t)protocol < 0xa029) {
       PVar1 = 0x30ed2e50;
       switch(protocol) {
       case Protocol__Enum_WorldRaid_Lobby:
@@ -84139,7 +84139,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion76
       }
     }
   }
-  else if ((uint)protocol < 0xb3b4) {
+  else if ((uint32_t)protocol < 0xb3b4) {
     if (protocol < Protocol__Enum_EliminateRaid_Login) {
       if (protocol == Protocol__Enum_CharacterGear_List) {
         return 0x4da3442b;
@@ -84190,7 +84190,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion76
       }
     }
   }
-  else if ((uint)protocol < 0xbb87) {
+  else if ((uint32_t)protocol < 0xbb87) {
     if (protocol < Protocol__Enum_Field_Sync) {
       if (protocol == Protocol__Enum_Sticker_Login) {
         return 0x2197ecc0;
@@ -87642,7 +87642,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion80
           }
         }
       }
-      else if ((uint)protocol < 0x1b5b) {
+      else if ((uint32_t)protocol < 0x1b5b) {
         if (protocol < Protocol__Enum_Mail_List) {
           switch(protocol) {
           case Protocol__Enum_Campaign_List:
@@ -87714,7 +87714,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion80
           }
         }
       }
-      else if ((uint)protocol < 0x232b) {
+      else if ((uint32_t)protocol < 0x232b) {
         if (protocol < Protocol__Enum_Attendance_List) {
           PVar1 = 0x67d3441a;
           switch(protocol) {
@@ -87783,8 +87783,8 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion80
         }
       }
     }
-    else if ((uint)protocol < 0x4a4d) {
-      if ((uint)protocol < 0x3e81) {
+    else if ((uint32_t)protocol < 0x4a4d) {
+      if ((uint32_t)protocol < 0x3e81) {
         if (protocol < Protocol__Enum_OpenCondition_List) {
           PVar1 = 0x79c049b;
           switch(protocol) {
@@ -87813,7 +87813,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion80
           }
         }
       }
-      else if ((uint)protocol < 0x4651) {
+      else if ((uint32_t)protocol < 0x4651) {
         PVar1 = 0x1a4d5158;
         switch(protocol) {
         case Protocol__Enum_Raid_List:
@@ -87915,7 +87915,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion80
         }
       }
     }
-    else if ((uint)protocol < 0x5601) {
+    else if ((uint32_t)protocol < 0x5601) {
       PVar1 = 0x213f63f8;
       switch(protocol) {
       case Protocol__Enum_Cafe_Get:
@@ -88030,7 +88030,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion80
         }
       }
     }
-    else if ((uint)protocol < 0x5dc3) {
+    else if ((uint32_t)protocol < 0x5dc3) {
       if (protocol < Protocol__Enum_Academy_GetInfo) {
         PVar1 = 0xa653036;
         switch(protocol) {
@@ -88073,9 +88073,9 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion80
       }
     }
   }
-  else if ((uint)protocol < 0x9089) {
-    if ((uint)protocol < 0x7919) {
-      if ((uint)protocol < 0x6d75) {
+  else if ((uint32_t)protocol < 0x9089) {
+    if ((uint32_t)protocol < 0x7919) {
+      if ((uint32_t)protocol < 0x6d75) {
         switch(protocol) {
         case Protocol__Enum_Clan_Lobby:
           return 0x2665ff62;
@@ -88249,7 +88249,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion80
         }
       }
     }
-    else if ((uint)protocol < 0x84d1) {
+    else if ((uint32_t)protocol < 0x84d1) {
       switch(protocol) {
       case Protocol__Enum_MomoTalk_OutLine:
         return 0x5fa7916b;
@@ -88269,7 +88269,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion80
         return 0xa68ce05;
       }
     }
-    else if ((uint)protocol < 0x8ca1) {
+    else if ((uint32_t)protocol < 0x8ca1) {
       PVar1 = 0x1a056261;
       switch(protocol) {
       case Protocol__Enum_MiniGame_StageList:
@@ -88354,8 +88354,8 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion80
       }
     }
   }
-  else if ((uint)protocol < 0xa806) {
-    if ((uint)protocol < 0x985f) {
+  else if ((uint32_t)protocol < 0xa806) {
+    if ((uint32_t)protocol < 0x985f) {
       switch(protocol) {
       case Protocol__Enum_TimeAttackDungeon_Lobby:
         return 0x6205acb7;
@@ -88386,7 +88386,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion80
         return 0x647e3366;
       }
     }
-    else if ((uint)protocol < 0xa029) {
+    else if ((uint32_t)protocol < 0xa029) {
       PVar1 = 0x27421499;
       switch(protocol) {
       case Protocol__Enum_WorldRaid_Lobby:
@@ -88484,7 +88484,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion80
       }
     }
   }
-  else if ((uint)protocol < 0xb3b4) {
+  else if ((uint32_t)protocol < 0xb3b4) {
     if (protocol < Protocol__Enum_EliminateRaid_Login) {
       if (protocol == Protocol__Enum_CharacterGear_List) {
         return 0x7c097ded;
@@ -88535,7 +88535,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion80
       }
     }
   }
-  else if ((uint)protocol < 0xbb87) {
+  else if ((uint32_t)protocol < 0xbb87) {
     if (protocol < Protocol__Enum_Field_Sync) {
       if (protocol == Protocol__Enum_Sticker_Login) {
         return 0x28de3a9d;
