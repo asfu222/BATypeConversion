@@ -485,6 +485,8 @@ typedef enum Protocol__Enum {
     Protocol__Enum_MultiFloorRaid_Login = 49004,
     Protocol__Enum_Queuing_GetTicket = 50000,
     Protocol__Enum_Queuing_GetCryptoKeys = 50001,
+    Protocol__Enum_Queuing_GetAuthTicket = 50002,
+    Protocol__Enum_Queuing_ProcessWaitingQueue = 50003,
     Protocol__Enum_BattlePass_GetInfo = 51000,
     Protocol__Enum_BattlePass_BuyLevel = 51001,
     Protocol__Enum_BattlePass_ReceiveReward = 51002,
@@ -568,7 +570,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion0
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x0696fd4c;
+            goto code_r0x069e330c;
           default:
             return protocol;
           }
@@ -1578,7 +1580,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion0
       }
     }
   }
-code_r0x0696fd4c:
+code_r0x069e330c:
   return PVar1;
 }
 
@@ -1651,7 +1653,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion1
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069718f4;
+            goto code_r0x069e4eb4;
           default:
             return protocol;
           }
@@ -1886,7 +1888,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion1
           }
           if (protocol == Protocol__Enum_Toast_List) {
             PVar1 = 0x7c9f;
-            goto code_r0x06970ff4;
+            goto code_r0x069e45b4;
           }
         }
       }
@@ -2007,7 +2009,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion1
         case Protocol__Enum_Cafe_Remove:
           return 0x76e2ce8a;
         case Protocol__Enum_Cafe_RemoveAll:
-          goto code_r0x069718f4;
+          goto code_r0x069e4eb4;
         case Protocol__Enum_Cafe_Interact:
           return 0x26d62b0e;
         case Protocol__Enum_Cafe_ListPreset:
@@ -2235,7 +2237,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion1
         switch(protocol) {
         case Protocol__Enum_EventContent_AdventureList:
           PVar1 = 0x6397;
-code_r0x06970ff4:
+code_r0x069e45b4:
           return PVar1 | 0x73a20000;
         case Protocol__Enum_EventContent_EnterMainStage:
           return 0x7c52e804;
@@ -2672,7 +2674,7 @@ code_r0x06970ff4:
       }
     }
   }
-code_r0x069718f4:
+code_r0x069e4eb4:
   return PVar2;
 }
 
@@ -2744,7 +2746,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion2
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x06973498;
+            goto code_r0x069e6a58;
           default:
             return protocol;
           }
@@ -3755,7 +3757,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion2
       }
     }
   }
-code_r0x06973498:
+code_r0x069e6a58:
   return PVar1;
 }
 
@@ -3827,7 +3829,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion3
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x06975040;
+            goto code_r0x069e8600;
           default:
             return protocol;
           }
@@ -4838,7 +4840,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion3
       }
     }
   }
-code_r0x06975040:
+code_r0x069e8600:
   return PVar1;
 }
 
@@ -4910,7 +4912,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion4
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x06976be8;
+            goto code_r0x069ea1a8;
           default:
             return protocol;
           }
@@ -5921,7 +5923,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion4
       }
     }
   }
-code_r0x06976be8:
+code_r0x069ea1a8:
   return PVar1;
 }
 
@@ -5993,7 +5995,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion5
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x06978790;
+            goto code_r0x069ebd50;
           default:
             return protocol;
           }
@@ -7003,7 +7005,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion5
       }
     }
   }
-code_r0x06978790:
+code_r0x069ebd50:
   return PVar1;
 }
 
@@ -7076,7 +7078,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion6
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x0697a338;
+            goto code_r0x069ed8f8;
           default:
             return protocol;
           }
@@ -7148,7 +7150,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion6
           switch(protocol) {
           case Protocol__Enum_Campaign_List:
             PVar1 = 0x44c1;
-code_r0x069798dc:
+code_r0x069ece9c:
             return PVar1 | 0x6e50000;
           case Protocol__Enum_Campaign_EnterMainStage:
             return 0x1826743c;
@@ -7450,7 +7452,7 @@ code_r0x069798dc:
         return 0x632b9712;
       case Protocol__Enum_Cafe_ReceiveCurrency:
         PVar1 = 0xbeca;
-code_r0x0697a888:
+code_r0x069ede48:
         return PVar1 | 0x1fc20000;
       case Protocol__Enum_Cafe_GiveGift:
         return 0x3831336c;
@@ -7474,7 +7476,7 @@ code_r0x0697a888:
           return 0xd3a4ca2;
         case Protocol__Enum_Arena_OpponentList:
           PVar1 = 0x92b9;
-          goto code_r0x0697a888;
+          goto code_r0x069ede48;
         case Protocol__Enum_Arena_EnterBattle:
           return 0x4bcc99c7;
         case Protocol__Enum_Arena_EnterBattlePart1:
@@ -8081,7 +8083,7 @@ code_r0x0697a888:
     switch(protocol) {
     case Protocol__Enum_MultiFloorRaid_Sync:
       PVar1 = 0xbea5;
-      goto code_r0x069798dc;
+      goto code_r0x069ece9c;
     case Protocol__Enum_MultiFloorRaid_EnterBattle:
       return 0x68cfc03e;
     case Protocol__Enum_MultiFloorRaid_EndBattle:
@@ -8095,7 +8097,7 @@ code_r0x0697a888:
       }
     }
   }
-code_r0x0697a338:
+code_r0x069ed8f8:
   return PVar2;
 }
 
@@ -8168,7 +8170,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion7
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x0697bedc;
+            goto code_r0x069ef49c;
           default:
             return protocol;
           }
@@ -8639,7 +8641,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion7
       else {
         if (protocol == Protocol__Enum_Academy_GetInfo) {
           PVar1 = 0xd039;
-          goto code_r0x0697b984;
+          goto code_r0x069eef44;
         }
         if (protocol == Protocol__Enum_Academy_AttendFavorSchedule) {
           return 0x4eacbea2;
@@ -9095,7 +9097,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion7
       switch(protocol) {
       case Protocol__Enum_EliminateRaid_Login:
         PVar1 = 0x3eed;
-code_r0x0697b984:
+code_r0x069eef44:
         return PVar1 | 0x2b470000;
       case Protocol__Enum_EliminateRaid_Lobby:
         return 0x459aabd7;
@@ -9183,7 +9185,7 @@ code_r0x0697b984:
       }
     }
   }
-code_r0x0697bedc:
+code_r0x069ef49c:
   return PVar2;
 }
 
@@ -9255,7 +9257,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion8
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x0697da8c;
+            goto code_r0x069f104c;
           default:
             return protocol;
           }
@@ -10266,7 +10268,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion8
       }
     }
   }
-code_r0x0697da8c:
+code_r0x069f104c:
   return PVar1;
 }
 
@@ -10338,7 +10340,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion9
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x0697f634;
+            goto code_r0x069f2bf4;
           default:
             return protocol;
           }
@@ -11349,7 +11351,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion9
       }
     }
   }
-code_r0x0697f634:
+code_r0x069f2bf4:
   return PVar1;
 }
 
@@ -11421,7 +11423,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion10
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069811dc;
+            goto code_r0x069f479c;
           default:
             return protocol;
           }
@@ -12432,7 +12434,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion10
       }
     }
   }
-code_r0x069811dc:
+code_r0x069f479c:
   return PVar1;
 }
 
@@ -12504,7 +12506,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion11
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x06982d90;
+            goto code_r0x069f6350;
           default:
             return protocol;
           }
@@ -13515,7 +13517,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion11
       }
     }
   }
-code_r0x06982d90:
+code_r0x069f6350:
   return PVar1;
 }
 
@@ -13589,12 +13591,12 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion12
             case Protocol__Enum_None:
             case Protocol__Enum_Session_Info:
             case Protocol__Enum_NetworkTime_SyncReply:
-              goto code_r0x06984938;
+              goto code_r0x069f7ef8;
             default:
               return protocol;
             }
           }
-code_r0x069845dc:
+code_r0x069f7b9c:
           return uVar2 | 0x68b40000;
         }
         PVar1 = 0xd1caafb;
@@ -14054,7 +14056,7 @@ code_r0x069845dc:
         switch(protocol) {
         case Protocol__Enum_WeekDungeon_List:
           uVar2 = 0x6c71;
-          goto code_r0x069845dc;
+          goto code_r0x069f7b9c;
         case Protocol__Enum_WeekDungeon_BattleResult:
           return 0x61385326;
         case Protocol__Enum_WeekDungeon_Retreat:
@@ -14604,7 +14606,7 @@ code_r0x069845dc:
       }
     }
   }
-code_r0x06984938:
+code_r0x069f7ef8:
   return PVar1;
 }
 
@@ -14676,7 +14678,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion13
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069864e4;
+            goto code_r0x069f9aa4;
           default:
             return protocol;
           }
@@ -15687,7 +15689,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion13
       }
     }
   }
-code_r0x069864e4:
+code_r0x069f9aa4:
   return PVar1;
 }
 
@@ -15759,7 +15761,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion14
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x0698808c;
+            goto code_r0x069fb64c;
           default:
             return protocol;
           }
@@ -16770,7 +16772,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion14
       }
     }
   }
-code_r0x0698808c:
+code_r0x069fb64c:
   return PVar1;
 }
 
@@ -16842,7 +16844,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion15
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x06989c34;
+            goto code_r0x069fd1f4;
           default:
             return protocol;
           }
@@ -17852,7 +17854,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion15
       }
     }
   }
-code_r0x06989c34:
+code_r0x069fd1f4:
   return PVar1;
 }
 
@@ -17925,7 +17927,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion16
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x0698b7d8;
+            goto code_r0x069fed98;
           default:
             return protocol;
           }
@@ -17981,7 +17983,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion16
             return 0x3d86016c;
           case Protocol__Enum_Item_Consume:
             uVar2 = 0x8220;
-code_r0x0698b4c4:
+code_r0x069fea84:
             return uVar2 | 0x418b0000;
           case Protocol__Enum_Item_Lock:
             return 0x21db20d;
@@ -18610,7 +18612,7 @@ code_r0x0698b4c4:
         return 0x76e672f7;
       case Protocol__Enum_MomoTalk_Read:
         uVar2 = 0xf2d5;
-        goto code_r0x0698b4c4;
+        goto code_r0x069fea84;
       case Protocol__Enum_MomoTalk_Reply:
         return 0x2c86cf98;
       case Protocol__Enum_MomoTalk_FavorSchedule:
@@ -18940,7 +18942,7 @@ code_r0x0698b4c4:
       }
     }
   }
-code_r0x0698b7d8:
+code_r0x069fed98:
   return PVar1;
 }
 
@@ -19012,7 +19014,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion17
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x0698d380;
+            goto code_r0x06a00940;
           default:
             return protocol;
           }
@@ -20023,7 +20025,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion17
       }
     }
   }
-code_r0x0698d380:
+code_r0x06a00940:
   return PVar1;
 }
 
@@ -20095,7 +20097,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion18
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x0698ef2c;
+            goto code_r0x06a024ec;
           default:
             return protocol;
           }
@@ -21106,7 +21108,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion18
       }
     }
   }
-code_r0x0698ef2c:
+code_r0x06a024ec:
   return PVar1;
 }
 
@@ -21178,7 +21180,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion19
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x06990ad4;
+            goto code_r0x06a04094;
           default:
             return protocol;
           }
@@ -22189,7 +22191,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion19
       }
     }
   }
-code_r0x06990ad4:
+code_r0x06a04094:
   return PVar1;
 }
 
@@ -22261,7 +22263,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion20
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x0699267c;
+            goto code_r0x06a05c3c;
           default:
             return protocol;
           }
@@ -23272,7 +23274,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion20
       }
     }
   }
-code_r0x0699267c:
+code_r0x06a05c3c:
   return PVar1;
 }
 
@@ -23346,12 +23348,12 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion21
             case Protocol__Enum_None:
             case Protocol__Enum_Session_Info:
             case Protocol__Enum_NetworkTime_SyncReply:
-              goto code_r0x06994224;
+              goto code_r0x06a077e4;
             default:
               return protocol;
             }
           }
-code_r0x06993fdc:
+code_r0x06a0759c:
           return uVar2 | 0x332e0000;
         }
         PVar1 = 0x7d52fd88;
@@ -23390,7 +23392,7 @@ code_r0x06993fdc:
             return 0x2a11a63a;
           case Protocol__Enum_Equipment_LevelUp:
             uVar2 = 0x2ab2;
-            goto code_r0x06993fdc;
+            goto code_r0x06a0759c;
           case Protocol__Enum_Equipment_TierUp:
             return 0x3f8a88e7;
           case Protocol__Enum_Equipment_Lock:
@@ -24362,7 +24364,7 @@ code_r0x06993fdc:
       }
     }
   }
-code_r0x06994224:
+code_r0x06a077e4:
   return PVar1;
 }
 
@@ -24435,7 +24437,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion22
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x06995dc8;
+            goto code_r0x06a09388;
           default:
             return protocol;
           }
@@ -24470,7 +24472,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion22
           switch(protocol) {
           case Protocol__Enum_Equipment_List:
             PVar1 = 0x8164;
-code_r0x069957cc:
+code_r0x06a08d8c:
             return PVar1 | 0x4da70000;
           case Protocol__Enum_Equipment_Sell:
             return 0x23aec4a0;
@@ -24715,7 +24717,7 @@ code_r0x069957cc:
           return 0xd1b3573;
         case Protocol__Enum_Raid_RankingReward:
           PVar1 = 0xb77c;
-          goto code_r0x06995e90;
+          goto code_r0x06a09450;
         case Protocol__Enum_Raid_Login:
           return 0x50507a1d;
         case Protocol__Enum_Raid_Sweep:
@@ -24982,7 +24984,7 @@ code_r0x069957cc:
           return 0x374ac184;
         case Protocol__Enum_Clan_Check:
           PVar1 = 0x12d6;
-code_r0x06995e90:
+code_r0x06a09450:
           return PVar1 | 0x141c0000;
         case Protocol__Enum_Clan_AllAssistList:
           return 0x2cfa0127;
@@ -25249,7 +25251,7 @@ code_r0x06995e90:
         return 0x67c4220b;
       case Protocol__Enum_SchoolDungeon_Retreat:
         PVar1 = 0x2516;
-        goto code_r0x069957cc;
+        goto code_r0x06a08d8c;
       default:
         if (protocol == Protocol__Enum_ProofToken_Submit) {
           return 0x2a9aeeeb;
@@ -25455,7 +25457,7 @@ code_r0x06995e90:
       }
     }
   }
-code_r0x06995dc8:
+code_r0x06a09388:
   return PVar2;
 }
 
@@ -25528,7 +25530,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion23
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x0699796c;
+            goto code_r0x06a0af2c;
           default:
             return protocol;
           }
@@ -25586,7 +25588,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion23
             return 0x13dd5bfd;
           case Protocol__Enum_Item_Lock:
             uVar2 = 0xd532;
-code_r0x06997a94:
+code_r0x06a0b054:
             return uVar2 | 0xd0d0000;
           case Protocol__Enum_Item_BulkConsume:
             return 0x50983173;
@@ -25783,7 +25785,7 @@ code_r0x06997a94:
           return 0x40b00e2b;
         case Protocol__Enum_Raid_EnterBattle:
           uVar2 = 0x2b07;
-          goto code_r0x069979a4;
+          goto code_r0x06a0af64;
         case Protocol__Enum_Raid_BattleUpdate:
           return 0x42f26149;
         case Protocol__Enum_Raid_EndBattle:
@@ -25837,7 +25839,7 @@ code_r0x06997a94:
           return 0x3c9ed69a;
         case Protocol__Enum_Scenario_LobbyStudentChange:
           uVar2 = 0x90df;
-          goto code_r0x06997a94;
+          goto code_r0x06a0b054;
         case Protocol__Enum_Scenario_SpecialLobbyChange:
           return 0x2b133fa;
         case Protocol__Enum_Scenario_Enter:
@@ -26007,7 +26009,7 @@ code_r0x06997a94:
         }
         if (protocol == Protocol__Enum_Academy_AttendSchedule) {
           uVar2 = 0x554e;
-          goto code_r0x06997a94;
+          goto code_r0x06a0b054;
         }
         if (protocol == Protocol__Enum_Academy_AttendFavorSchedule) {
           return 0xf535ac5;
@@ -26073,7 +26075,7 @@ code_r0x06997a94:
           return 0x17243162;
         case Protocol__Enum_Clan_SetAssist:
           uVar2 = 0xec67;
-code_r0x069979a4:
+code_r0x06a0af64:
           return uVar2 | 0x55070000;
         case Protocol__Enum_Clan_ChatLog:
           return 0x419f67fd;
@@ -26548,7 +26550,7 @@ code_r0x069979a4:
       }
     }
   }
-code_r0x0699796c:
+code_r0x06a0af2c:
   return PVar1;
 }
 
@@ -26622,12 +26624,12 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion24
             case Protocol__Enum_None:
             case Protocol__Enum_Session_Info:
             case Protocol__Enum_NetworkTime_SyncReply:
-              goto code_r0x06999514;
+              goto code_r0x06a0cad4;
             default:
               return protocol;
             }
           }
-code_r0x06999170:
+code_r0x06a0c730:
           return uVar2 | 0x43c20000;
         }
         PVar1 = 0x5e2e479;
@@ -27012,7 +27014,7 @@ code_r0x06999170:
         switch(protocol) {
         case Protocol__Enum_Arena_EnterLobby:
           uVar2 = 0x8515;
-          goto code_r0x06999170;
+          goto code_r0x06a0c730;
         case Protocol__Enum_Arena_Login:
           return 0x12858a4b;
         case Protocol__Enum_Arena_SettingChange:
@@ -27638,7 +27640,7 @@ code_r0x06999170:
       }
     }
   }
-code_r0x06999514:
+code_r0x06a0cad4:
   return PVar1;
 }
 
@@ -27710,7 +27712,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion25
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x0699b0c0;
+            goto code_r0x06a0e680;
           default:
             return protocol;
           }
@@ -28721,7 +28723,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion25
       }
     }
   }
-code_r0x0699b0c0:
+code_r0x06a0e680:
   return PVar1;
 }
 
@@ -28793,7 +28795,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion26
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x0699cc68;
+            goto code_r0x06a10228;
           default:
             return protocol;
           }
@@ -29804,7 +29806,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion26
       }
     }
   }
-code_r0x0699cc68:
+code_r0x06a10228:
   return PVar1;
 }
 
@@ -29876,7 +29878,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion27
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x0699e814;
+            goto code_r0x06a11dd4;
           default:
             return protocol;
           }
@@ -30887,7 +30889,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion27
       }
     }
   }
-code_r0x0699e814:
+code_r0x06a11dd4:
   return PVar1;
 }
 
@@ -30960,7 +30962,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion28
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069a03b8;
+            goto code_r0x06a13978;
           default:
             return protocol;
           }
@@ -30997,7 +30999,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion28
             return 0x732c6441;
           case Protocol__Enum_Equipment_Sell:
             uVar2 = 0x3a3e;
-code_r0x069a0158:
+code_r0x06a13718:
             return uVar2 | 0x64400000;
           case Protocol__Enum_Equipment_Equip:
             return 0x6c1bc1a0;
@@ -31512,7 +31514,7 @@ code_r0x069a0158:
         switch(protocol) {
         case Protocol__Enum_ContentSweep_Request:
           uVar2 = 0xe2e4;
-          goto code_r0x069a0158;
+          goto code_r0x06a13718;
         case Protocol__Enum_ContentSweep_MultiSweep:
           return 0x6eb3bd6d;
         case Protocol__Enum_ContentSweep_MultiSweepPresetList:
@@ -31975,7 +31977,7 @@ code_r0x069a0158:
       }
     }
   }
-code_r0x069a03b8:
+code_r0x06a13978:
   return PVar1;
 }
 
@@ -32048,7 +32050,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion29
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069a1f64;
+            goto code_r0x06a15524;
           default:
             return protocol;
           }
@@ -32085,7 +32087,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion29
             return 0x51507e75;
           case Protocol__Enum_Equipment_Sell:
             uVar2 = 0x7158;
-code_r0x069a1d4c:
+code_r0x06a1530c:
             return uVar2 | 0x76310000;
           case Protocol__Enum_Equipment_Equip:
             return 0x5c1cb1bf;
@@ -32558,7 +32560,7 @@ code_r0x069a1d4c:
           return 0x430d4a4;
         case Protocol__Enum_Clan_Login:
           uVar2 = 0x8f13;
-          goto code_r0x069a1d4c;
+          goto code_r0x06a1530c;
         case Protocol__Enum_Clan_Search:
           return 0x52519509;
         case Protocol__Enum_Clan_Create:
@@ -33063,7 +33065,7 @@ code_r0x069a1d4c:
       }
     }
   }
-code_r0x069a1f64:
+code_r0x06a15524:
   return PVar1;
 }
 
@@ -33135,7 +33137,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion30
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069a3b0c;
+            goto code_r0x06a170cc;
           default:
             return protocol;
           }
@@ -34146,7 +34148,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion30
       }
     }
   }
-code_r0x069a3b0c:
+code_r0x06a170cc:
   return PVar1;
 }
 
@@ -34218,7 +34220,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion31
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069a56b4;
+            goto code_r0x06a18c74;
           default:
             return protocol;
           }
@@ -35229,7 +35231,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion31
       }
     }
   }
-code_r0x069a56b4:
+code_r0x06a18c74:
   return PVar1;
 }
 
@@ -35301,7 +35303,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion32
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069a725c;
+            goto code_r0x06a1a81c;
           default:
             return protocol;
           }
@@ -36312,7 +36314,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion32
       }
     }
   }
-code_r0x069a725c:
+code_r0x06a1a81c:
   return PVar1;
 }
 
@@ -36384,7 +36386,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion33
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069a8e04;
+            goto code_r0x06a1c3c4;
           default:
             return protocol;
           }
@@ -37395,7 +37397,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion33
       }
     }
   }
-code_r0x069a8e04:
+code_r0x06a1c3c4:
   return PVar1;
 }
 
@@ -37467,7 +37469,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion34
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069aa9ac;
+            goto code_r0x06a1df6c;
           default:
             return protocol;
           }
@@ -38478,7 +38480,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion34
       }
     }
   }
-code_r0x069aa9ac:
+code_r0x06a1df6c:
   return PVar1;
 }
 
@@ -38550,7 +38552,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion35
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069ac554;
+            goto code_r0x06a1fb14;
           default:
             return protocol;
           }
@@ -39560,7 +39562,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion35
       }
     }
   }
-code_r0x069ac554:
+code_r0x06a1fb14:
   return PVar1;
 }
 
@@ -39633,7 +39635,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion36
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069ae0fc;
+            goto code_r0x06a216bc;
           default:
             return protocol;
           }
@@ -39658,7 +39660,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion36
           return 0x23b8fcf0;
         case Protocol__Enum_Character_SetFavorites:
           uVar2 = 0xa190;
-code_r0x069adee4:
+code_r0x06a214a4:
           return uVar2 | 0x517f0000;
         case Protocol__Enum_Character_SetCostume:
           return 0x519809b7;
@@ -40142,7 +40144,7 @@ code_r0x069adee4:
           return 0x3065bff;
         case Protocol__Enum_Clan_Login:
           uVar2 = 0x4ec1;
-          goto code_r0x069adee4;
+          goto code_r0x06a214a4;
         case Protocol__Enum_Clan_Search:
           return 0x234cd6bd;
         case Protocol__Enum_Clan_Create:
@@ -40648,7 +40650,7 @@ code_r0x069adee4:
       }
     }
   }
-code_r0x069ae0fc:
+code_r0x06a216bc:
   return PVar1;
 }
 
@@ -40720,7 +40722,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion37
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069afca4;
+            goto code_r0x06a23264;
           default:
             return protocol;
           }
@@ -41731,7 +41733,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion37
       }
     }
   }
-code_r0x069afca4:
+code_r0x06a23264:
   return PVar1;
 }
 
@@ -41803,7 +41805,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion38
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069b184c;
+            goto code_r0x06a24e0c;
           default:
             return protocol;
           }
@@ -42814,7 +42816,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion38
       }
     }
   }
-code_r0x069b184c:
+code_r0x06a24e0c:
   return PVar1;
 }
 
@@ -42886,7 +42888,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion39
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069b33f4;
+            goto code_r0x06a269b4;
           default:
             return protocol;
           }
@@ -43897,7 +43899,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion39
       }
     }
   }
-code_r0x069b33f4:
+code_r0x06a269b4:
   return PVar1;
 }
 
@@ -43969,7 +43971,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion40
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069b4fa0;
+            goto code_r0x06a28560;
           default:
             return protocol;
           }
@@ -44980,7 +44982,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion40
       }
     }
   }
-code_r0x069b4fa0:
+code_r0x06a28560:
   return PVar1;
 }
 
@@ -45054,12 +45056,12 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion41
             case Protocol__Enum_None:
             case Protocol__Enum_Session_Info:
             case Protocol__Enum_NetworkTime_SyncReply:
-              goto code_r0x069b6b3c;
+              goto code_r0x06a2a0fc;
             default:
               return protocol;
             }
           }
-code_r0x069b6290:
+code_r0x06a29850:
           return PVar1 | 0x66990000;
         }
         PVar2 = 0x525979a7;
@@ -45190,7 +45192,7 @@ code_r0x069b6290:
           }
           if (protocol == Protocol__Enum_Mail_Check) {
             PVar1 = 0xb4b9;
-            goto code_r0x069b6290;
+            goto code_r0x06a29850;
           }
           if (protocol == Protocol__Enum_Mail_Receive) {
             return 0x180db056;
@@ -45453,7 +45455,7 @@ code_r0x069b6290:
           return 0x195bde9e;
         case Protocol__Enum_Arena_EnterBattle:
           PVar1 = 0xab48;
-          goto code_r0x069b6d3c;
+          goto code_r0x06a2a2fc;
         case Protocol__Enum_Arena_EnterBattlePart1:
           return 0x53b31fb1;
         case Protocol__Enum_Arena_EnterBattlePart2:
@@ -45589,7 +45591,7 @@ code_r0x069b6290:
           return 0x23e6430e;
         case Protocol__Enum_Clan_Dismiss:
           PVar1 = 0xedc;
-code_r0x069b6d3c:
+code_r0x06a2a2fc:
           return PVar1 | 0xa460000;
         case Protocol__Enum_Clan_AutoJoin:
           return 0x666fce05;
@@ -46074,7 +46076,7 @@ code_r0x069b6d3c:
       }
     }
   }
-code_r0x069b6b3c:
+code_r0x06a2a0fc:
   return PVar2;
 }
 
@@ -46147,7 +46149,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion42
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069b86dc;
+            goto code_r0x06a2bc9c;
           default:
             return protocol;
           }
@@ -46158,7 +46160,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion42
           return 0x2e3d7ba4;
         case Protocol__Enum_Character_Transcendence:
           uVar2 = 0x53e1;
-code_r0x069b8404:
+code_r0x06a2b9c4:
           return uVar2 | 0x585f0000;
         case Protocol__Enum_Character_ExpGrowth:
           return 0x48bf8067;
@@ -46213,7 +46215,7 @@ code_r0x069b8404:
             return 0x2dbe3ad0;
           case Protocol__Enum_Item_AutoSynth:
             uVar2 = 0x5f15;
-code_r0x069b83f8:
+code_r0x06a2b9b8:
             return uVar2 | 0x183c0000;
           }
         }
@@ -46642,7 +46644,7 @@ code_r0x069b83f8:
         break;
       case Protocol__Enum_Event_RewardIncrease:
         uVar2 = 0xf2e3;
-        goto code_r0x069b83f8;
+        goto code_r0x06a2b9b8;
       default:
         PVar1 = protocol;
         if (protocol == Protocol__Enum_ContentSave_Get) {
@@ -46973,7 +46975,7 @@ code_r0x069b83f8:
         return 0x5e001212;
       case Protocol__Enum_WorldRaid_EnterBattle:
         uVar2 = 0x3e4b;
-        goto code_r0x069b8404;
+        goto code_r0x06a2b9c4;
       case Protocol__Enum_WorldRaid_BattleResult:
         return 0x446c9481;
       case Protocol__Enum_WorldRaid_ReceiveReward:
@@ -47164,7 +47166,7 @@ code_r0x069b83f8:
       }
     }
   }
-code_r0x069b86dc:
+code_r0x06a2bc9c:
   return PVar1;
 }
 
@@ -47236,7 +47238,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion43
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069ba284;
+            goto code_r0x06a2d844;
           default:
             return protocol;
           }
@@ -48246,7 +48248,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion43
       }
     }
   }
-code_r0x069ba284:
+code_r0x06a2d844:
   return PVar1;
 }
 
@@ -48318,7 +48320,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion44
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069bbe30;
+            goto code_r0x06a2f3f0;
           default:
             return protocol;
           }
@@ -49329,7 +49331,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion44
       }
     }
   }
-code_r0x069bbe30:
+code_r0x06a2f3f0:
   return PVar1;
 }
 
@@ -49401,7 +49403,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion45
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069bd9d8;
+            goto code_r0x06a30f98;
           default:
             return protocol;
           }
@@ -50412,7 +50414,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion45
       }
     }
   }
-code_r0x069bd9d8:
+code_r0x06a30f98:
   return PVar1;
 }
 
@@ -50485,7 +50487,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion46
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069bf57c;
+            goto code_r0x06a32b3c;
           default:
             return protocol;
           }
@@ -50547,7 +50549,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion46
             return 0x1e70a9ad;
           case Protocol__Enum_Item_SelectTicket:
             uVar2 = 0x4ecf;
-code_r0x069bf28c:
+code_r0x06a3284c:
             return uVar2 | 0x198a0000;
           case Protocol__Enum_Item_AutoSynth:
             return 0x35a2084d;
@@ -51282,7 +51284,7 @@ code_r0x069bf28c:
         return 0x12a96bbb;
       case Protocol__Enum_TimeAttackDungeon_GiveUp:
         uVar2 = 0x2597;
-        goto code_r0x069bf28c;
+        goto code_r0x06a3284c;
       case Protocol__Enum_TimeAttackDungeon_Login:
         return 0x1e5df543;
       default:
@@ -51499,7 +51501,7 @@ code_r0x069bf28c:
       }
     }
   }
-code_r0x069bf57c:
+code_r0x06a32b3c:
   return PVar1;
 }
 
@@ -51571,7 +51573,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion47
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069c1128;
+            goto code_r0x06a346e8;
           default:
             return protocol;
           }
@@ -52582,7 +52584,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion47
       }
     }
   }
-code_r0x069c1128:
+code_r0x06a346e8:
   return PVar1;
 }
 
@@ -52654,7 +52656,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion48
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069c2cd4;
+            goto code_r0x06a36294;
           default:
             return protocol;
           }
@@ -53664,7 +53666,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion48
       }
     }
   }
-code_r0x069c2cd4:
+code_r0x06a36294:
   return PVar1;
 }
 
@@ -53736,7 +53738,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion49
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069c487c;
+            goto code_r0x06a37e3c;
           default:
             return protocol;
           }
@@ -54747,7 +54749,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion49
       }
     }
   }
-code_r0x069c487c:
+code_r0x06a37e3c:
   return PVar1;
 }
 
@@ -54819,7 +54821,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion50
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069c6428;
+            goto code_r0x06a399e8;
           default:
             return protocol;
           }
@@ -55830,7 +55832,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion50
       }
     }
   }
-code_r0x069c6428:
+code_r0x06a399e8:
   return PVar1;
 }
 
@@ -55902,7 +55904,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion51
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069c7fd4;
+            goto code_r0x06a3b594;
           default:
             return protocol;
           }
@@ -56913,7 +56915,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion51
       }
     }
   }
-code_r0x069c7fd4:
+code_r0x06a3b594:
   return PVar1;
 }
 
@@ -56985,7 +56987,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion52
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069c9b7c;
+            goto code_r0x06a3d13c;
           default:
             return protocol;
           }
@@ -57995,7 +57997,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion52
       }
     }
   }
-code_r0x069c9b7c:
+code_r0x06a3d13c:
   return PVar1;
 }
 
@@ -58067,7 +58069,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion53
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069cb728;
+            goto code_r0x06a3ece8;
           default:
             return protocol;
           }
@@ -59078,7 +59080,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion53
       }
     }
   }
-code_r0x069cb728:
+code_r0x06a3ece8:
   return PVar1;
 }
 
@@ -59150,7 +59152,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion54
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069cd2d4;
+            goto code_r0x06a40894;
           default:
             return protocol;
           }
@@ -60160,7 +60162,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion54
       }
     }
   }
-code_r0x069cd2d4:
+code_r0x06a40894:
   return PVar1;
 }
 
@@ -60232,7 +60234,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion55
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069cee7c;
+            goto code_r0x06a4243c;
           default:
             return protocol;
           }
@@ -61243,7 +61245,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion55
       }
     }
   }
-code_r0x069cee7c:
+code_r0x06a4243c:
   return PVar1;
 }
 
@@ -61315,7 +61317,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion56
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069d0a28;
+            goto code_r0x06a43fe8;
           default:
             return protocol;
           }
@@ -62326,7 +62328,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion56
       }
     }
   }
-code_r0x069d0a28:
+code_r0x06a43fe8:
   return PVar1;
 }
 
@@ -62398,7 +62400,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion57
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069d25d0;
+            goto code_r0x06a45b90;
           default:
             return protocol;
           }
@@ -63408,7 +63410,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion57
       }
     }
   }
-code_r0x069d25d0:
+code_r0x06a45b90:
   return PVar1;
 }
 
@@ -63480,7 +63482,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion58
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069d4178;
+            goto code_r0x06a47738;
           default:
             return protocol;
           }
@@ -64491,7 +64493,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion58
       }
     }
   }
-code_r0x069d4178:
+code_r0x06a47738:
   return PVar1;
 }
 
@@ -64563,7 +64565,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion59
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069d5d24;
+            goto code_r0x06a492e4;
           default:
             return protocol;
           }
@@ -65574,7 +65576,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion59
       }
     }
   }
-code_r0x069d5d24:
+code_r0x06a492e4:
   return PVar1;
 }
 
@@ -65646,7 +65648,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion60
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069d78d0;
+            goto code_r0x06a4ae90;
           default:
             return protocol;
           }
@@ -66656,7 +66658,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion60
       }
     }
   }
-code_r0x069d78d0:
+code_r0x06a4ae90:
   return PVar1;
 }
 
@@ -66728,7 +66730,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion61
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069d947c;
+            goto code_r0x06a4ca3c;
           default:
             return protocol;
           }
@@ -67739,7 +67741,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion61
       }
     }
   }
-code_r0x069d947c:
+code_r0x06a4ca3c:
   return PVar1;
 }
 
@@ -67811,7 +67813,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion62
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069db024;
+            goto code_r0x06a4e5e4;
           default:
             return protocol;
           }
@@ -68821,7 +68823,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion62
       }
     }
   }
-code_r0x069db024:
+code_r0x06a4e5e4:
   return PVar1;
 }
 
@@ -68893,7 +68895,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion63
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069dcbcc;
+            goto code_r0x06a5018c;
           default:
             return protocol;
           }
@@ -69903,7 +69905,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion63
       }
     }
   }
-code_r0x069dcbcc:
+code_r0x06a5018c:
   return PVar1;
 }
 
@@ -69975,7 +69977,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion64
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069de774;
+            goto code_r0x06a51d34;
           default:
             return protocol;
           }
@@ -70985,7 +70987,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion64
       }
     }
   }
-code_r0x069de774:
+code_r0x06a51d34:
   return PVar1;
 }
 
@@ -71057,7 +71059,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion65
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069e031c;
+            goto code_r0x06a538dc;
           default:
             return protocol;
           }
@@ -72067,7 +72069,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion65
       }
     }
   }
-code_r0x069e031c:
+code_r0x06a538dc:
   return PVar1;
 }
 
@@ -72140,7 +72142,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion66
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069e1ebc;
+            goto code_r0x06a5547c;
           default:
             return protocol;
           }
@@ -72163,7 +72165,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion66
           return 0xb5db10d;
         case Protocol__Enum_Character_WeaponTranscendence:
           PVar1 = 0x310d;
-code_r0x069e165c:
+code_r0x06a54c1c:
           return PVar1 | 0x28cb0000;
         case Protocol__Enum_Character_SetFavorites:
           return 0x475bec5b;
@@ -72172,7 +72174,7 @@ code_r0x069e165c:
         case Protocol__Enum_Character_BatchSkillLevelUpdate:
           return 0x1b4d69b4;
         case Protocol__Enum_Character_PotentialGrowth:
-          goto code_r0x069e1ebc;
+          goto code_r0x06a5547c;
         default:
           switch(protocol) {
           case Protocol__Enum_Equipment_List:
@@ -72209,7 +72211,7 @@ code_r0x069e165c:
             case Protocol__Enum_Item_AutoSynth:
               return 0x33ee904b;
             default:
-              goto code_r0x069e1ebc;
+              goto code_r0x06a5547c;
             }
           }
           return PVar1 | 0x1d4d0000;
@@ -73065,7 +73067,7 @@ code_r0x069e165c:
       }
       if (protocol == Protocol__Enum_CharacterGear_Unlock) {
         PVar1 = 0xfb42;
-        goto code_r0x069e165c;
+        goto code_r0x06a54c1c;
       }
       if (protocol == Protocol__Enum_CharacterGear_TierUp) {
         return 0x454e1c5a;
@@ -73160,7 +73162,7 @@ code_r0x069e165c:
       }
     }
   }
-code_r0x069e1ebc:
+code_r0x06a5547c:
   return PVar2;
 }
 
@@ -73232,7 +73234,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion67
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069e3a64;
+            goto code_r0x06a57024;
           default:
             return protocol;
           }
@@ -74243,7 +74245,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion67
       }
     }
   }
-code_r0x069e3a64:
+code_r0x06a57024:
   return PVar1;
 }
 
@@ -74315,7 +74317,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion68
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069e5610;
+            goto code_r0x06a58bd0;
           default:
             return protocol;
           }
@@ -75326,7 +75328,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion68
       }
     }
   }
-code_r0x069e5610:
+code_r0x06a58bd0:
   return PVar1;
 }
 
@@ -75398,7 +75400,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion69
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069e71bc;
+            goto code_r0x06a5a77c;
           default:
             return protocol;
           }
@@ -76409,7 +76411,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion69
       }
     }
   }
-code_r0x069e71bc:
+code_r0x06a5a77c:
   return PVar1;
 }
 
@@ -76482,7 +76484,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion70
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069e8d64;
+            goto code_r0x06a5c324;
           default:
             return protocol;
           }
@@ -76618,7 +76620,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion70
           }
           if (protocol == Protocol__Enum_Mail_Receive) {
             PVar1 = 0x586;
-code_r0x069e7e68:
+code_r0x06a5b428:
             return PVar1 | 0x4caf0000;
           }
         }
@@ -77436,7 +77438,7 @@ code_r0x069e7e68:
       switch(protocol) {
       case Protocol__Enum_Attachment_Get:
         PVar1 = 0x9702;
-        goto code_r0x069e7e68;
+        goto code_r0x06a5b428;
       case Protocol__Enum_Attachment_EmblemList:
         return 0x9dd0145;
       case Protocol__Enum_Attachment_EmblemAcquire:
@@ -77495,7 +77497,7 @@ code_r0x069e7e68:
       }
     }
   }
-code_r0x069e8d64:
+code_r0x06a5c324:
   return PVar2;
 }
 
@@ -77567,7 +77569,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion71
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069ea90c;
+            goto code_r0x06a5decc;
           default:
             return protocol;
           }
@@ -78578,7 +78580,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion71
       }
     }
   }
-code_r0x069ea90c:
+code_r0x06a5decc:
   return PVar1;
 }
 
@@ -78650,7 +78652,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion72
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069ec4bc;
+            goto code_r0x06a5fa7c;
           default:
             return protocol;
           }
@@ -79661,7 +79663,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion72
       }
     }
   }
-code_r0x069ec4bc:
+code_r0x06a5fa7c:
   return PVar1;
 }
 
@@ -79733,7 +79735,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion73
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069ee064;
+            goto code_r0x06a61624;
           default:
             return protocol;
           }
@@ -80744,7 +80746,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion73
       }
     }
   }
-code_r0x069ee064:
+code_r0x06a61624:
   return PVar1;
 }
 
@@ -80817,7 +80819,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion74
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069efc0c;
+            goto code_r0x06a631cc;
           default:
             return protocol;
           }
@@ -80852,7 +80854,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion74
           switch(protocol) {
           case Protocol__Enum_Equipment_List:
             uVar2 = 0x6708;
-code_r0x069ef70c:
+code_r0x06a62ccc:
             return uVar2 | 0xfc00000;
           case Protocol__Enum_Equipment_Sell:
             return 0x2219be1d;
@@ -80967,7 +80969,7 @@ code_r0x069ef70c:
             return 0x23447b48;
           case Protocol__Enum_Mission_Reward:
             uVar2 = 0xdba0;
-            goto code_r0x069ef70c;
+            goto code_r0x06a62ccc;
           case Protocol__Enum_Mission_MultipleReward:
             return 0x11ff94a6;
           case Protocol__Enum_Mission_GuideReward:
@@ -81117,7 +81119,7 @@ code_r0x069ef70c:
           return 0x583eff01;
         case Protocol__Enum_Scenario_Clear:
           uVar2 = 0x72bf;
-          goto code_r0x069f00d8;
+          goto code_r0x06a63698;
         case Protocol__Enum_Scenario_GroupHistoryUpdate:
           return 0x286be88c;
         case Protocol__Enum_Scenario_Skip:
@@ -81172,7 +81174,7 @@ code_r0x069ef70c:
         return 0x5b4897c1;
       case Protocol__Enum_Cafe_Deploy:
         uVar2 = 0xc338;
-code_r0x069f00d8:
+code_r0x06a63698:
         return uVar2 | 0x59e30000;
       case Protocol__Enum_Cafe_Relocate:
         return 0x19c4ddc1;
@@ -81836,7 +81838,7 @@ code_r0x069f00d8:
       }
     }
   }
-code_r0x069efc0c:
+code_r0x06a631cc:
   return PVar1;
 }
 
@@ -81908,7 +81910,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion75
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069f17b0;
+            goto code_r0x06a64d70;
           default:
             return protocol;
           }
@@ -82918,7 +82920,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion75
       }
     }
   }
-code_r0x069f17b0:
+code_r0x06a64d70:
   return PVar1;
 }
 
@@ -82990,7 +82992,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion76
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069f3358;
+            goto code_r0x06a66918;
           default:
             return protocol;
           }
@@ -84000,7 +84002,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion76
       }
     }
   }
-code_r0x069f3358:
+code_r0x06a66918:
   return PVar1;
 }
 
@@ -84072,7 +84074,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion77
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069f4f04;
+            goto code_r0x06a684c4;
           default:
             return protocol;
           }
@@ -85083,7 +85085,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion77
       }
     }
   }
-code_r0x069f4f04:
+code_r0x06a684c4:
   return PVar1;
 }
 
@@ -85155,7 +85157,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion78
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069f6aac;
+            goto code_r0x06a6a06c;
           default:
             return protocol;
           }
@@ -86166,7 +86168,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion78
       }
     }
   }
-code_r0x069f6aac:
+code_r0x06a6a06c:
   return PVar1;
 }
 
@@ -86238,7 +86240,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion79
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069f8654;
+            goto code_r0x06a6bc14;
           default:
             return protocol;
           }
@@ -87249,7 +87251,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion79
       }
     }
   }
-code_r0x069f8654:
+code_r0x06a6bc14:
   return PVar1;
 }
 
@@ -87321,7 +87323,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion80
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069fa1fc;
+            goto code_r0x06a6d7bc;
           default:
             return protocol;
           }
@@ -88332,7 +88334,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion80
       }
     }
   }
-code_r0x069fa1fc:
+code_r0x06a6d7bc:
   return PVar1;
 }
 
@@ -88404,7 +88406,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion81
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069fbda4;
+            goto code_r0x06a6f364;
           default:
             return protocol;
           }
@@ -89415,7 +89417,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion81
       }
     }
   }
-code_r0x069fbda4:
+code_r0x06a6f364:
   return PVar1;
 }
 
@@ -89489,12 +89491,12 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion82
             case Protocol__Enum_None:
             case Protocol__Enum_Session_Info:
             case Protocol__Enum_NetworkTime_SyncReply:
-              goto code_r0x069fd944;
+              goto code_r0x06a70f04;
             default:
               return protocol;
             }
           }
-code_r0x069fd5c4:
+code_r0x06a70b84:
           return uVar2 | 0x58710000;
         }
         PVar1 = 0x4c425627;
@@ -89507,7 +89509,7 @@ code_r0x069fd5c4:
           break;
         case Protocol__Enum_Character_FavorGrowth:
           uVar2 = 0x3faa;
-code_r0x069fd678:
+code_r0x06a70c38:
           return uVar2 | 0x3f2a0000;
         case Protocol__Enum_Character_UpdateSkillLevel:
           return 0x1196c409;
@@ -89645,7 +89647,7 @@ code_r0x069fd678:
             return 0x3ebea08f;
           case Protocol__Enum_Mission_GuideReward:
             uVar2 = 0x6a61;
-            goto code_r0x069fd678;
+            goto code_r0x06a70c38;
           case Protocol__Enum_Mission_MultipleGuideReward:
             return 0x766289bc;
           case Protocol__Enum_Mission_Sync:
@@ -90286,7 +90288,7 @@ code_r0x069fd678:
         return 0xd4ddc99;
       case Protocol__Enum_TimeAttackDungeon_EndBattle:
         uVar2 = 0x964d;
-        goto code_r0x069fd5c4;
+        goto code_r0x06a70b84;
       case Protocol__Enum_TimeAttackDungeon_Sweep:
         return 0x42ee498f;
       case Protocol__Enum_TimeAttackDungeon_GiveUp:
@@ -90508,7 +90510,7 @@ code_r0x069fd678:
       }
     }
   }
-code_r0x069fd944:
+code_r0x06a70f04:
   return PVar1;
 }
 
@@ -90580,7 +90582,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion83
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x069ff4ec;
+            goto code_r0x06a72aac;
           default:
             return protocol;
           }
@@ -91591,7 +91593,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion83
       }
     }
   }
-code_r0x069ff4ec:
+code_r0x06a72aac:
   return PVar1;
 }
 
@@ -91664,7 +91666,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion84
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x06a01090;
+            goto code_r0x06a74650;
           default:
             return protocol;
           }
@@ -91972,7 +91974,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion84
           return 0x2336cce6;
         case Protocol__Enum_Scenario_SpecialLobbyChange:
           uVar2 = 0x7f91;
-code_r0x06a0143c:
+code_r0x06a749fc:
           return uVar2 | 0x8160000;
         case Protocol__Enum_Scenario_Enter:
           return 0x590015d0;
@@ -92129,7 +92131,7 @@ code_r0x06a0143c:
         switch(protocol) {
         case Protocol__Enum_WeekDungeon_List:
           uVar2 = 0x6d61;
-code_r0x06a00c2c:
+code_r0x06a741ec:
           return uVar2 | 0x18ef0000;
         case Protocol__Enum_WeekDungeon_BattleResult:
           return 0x71cc36af;
@@ -92294,7 +92296,7 @@ code_r0x06a00c2c:
           return 0x370311ea;
         case Protocol__Enum_EventContent_BoxGachaShopRefresh:
           uVar2 = 0x5110;
-          goto code_r0x06a0143c;
+          goto code_r0x06a749fc;
         case Protocol__Enum_EventContent_CollectionList:
           return 0x1bbdd05a;
         case Protocol__Enum_EventContent_CollectionForMission:
@@ -92636,7 +92638,7 @@ code_r0x06a00c2c:
     if (protocol < Protocol__Enum_Field_Sync) {
       if (protocol == Protocol__Enum_Sticker_Login) {
         uVar2 = 0x4e7a;
-        goto code_r0x06a00c2c;
+        goto code_r0x06a741ec;
       }
       if (protocol == Protocol__Enum_Sticker_Lobby) {
         return 0x78b09970;
@@ -92683,7 +92685,7 @@ code_r0x06a00c2c:
       }
     }
   }
-code_r0x06a01090:
+code_r0x06a74650:
   return PVar1;
 }
 
@@ -92755,7 +92757,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion85
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x06a02c38;
+            goto code_r0x06a761f8;
           default:
             return protocol;
           }
@@ -93766,7 +93768,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion85
       }
     }
   }
-code_r0x06a02c38:
+code_r0x06a761f8:
   return PVar1;
 }
 
@@ -93838,7 +93840,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion86
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x06a047e0;
+            goto code_r0x06a77da0;
           default:
             return protocol;
           }
@@ -94849,7 +94851,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion86
       }
     }
   }
-code_r0x06a047e0:
+code_r0x06a77da0:
   return PVar1;
 }
 
@@ -94921,7 +94923,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion87
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x06a06388;
+            goto code_r0x06a79948;
           default:
             return protocol;
           }
@@ -95932,7 +95934,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion87
       }
     }
   }
-code_r0x06a06388:
+code_r0x06a79948:
   return PVar1;
 }
 
@@ -96004,7 +96006,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion88
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x06a07f30;
+            goto code_r0x06a7b4f0;
           default:
             return protocol;
           }
@@ -97015,7 +97017,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion88
       }
     }
   }
-code_r0x06a07f30:
+code_r0x06a7b4f0:
   return PVar1;
 }
 
@@ -97087,7 +97089,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion89
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x06a09adc;
+            goto code_r0x06a7d09c;
           default:
             return protocol;
           }
@@ -98098,7 +98100,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion89
       }
     }
   }
-code_r0x06a09adc:
+code_r0x06a7d09c:
   return PVar1;
 }
 
@@ -98171,7 +98173,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion90
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x06a0b67c;
+            goto code_r0x06a7ec3c;
           default:
             return protocol;
           }
@@ -98216,7 +98218,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion90
             return 0x4ea945ce;
           case Protocol__Enum_Equipment_Lock:
             uVar2 = 0x39b0;
-code_r0x06a0b4c4:
+code_r0x06a7ea84:
             return uVar2 | 0x45da0000;
           case Protocol__Enum_Equipment_BatchGrowth:
             return 0x72c755cd;
@@ -98237,7 +98239,7 @@ code_r0x06a0b4c4:
               return 0x79c4a69;
             case Protocol__Enum_Item_AutoSynth:
               uVar2 = 0xc65a;
-              goto code_r0x06a0b47c;
+              goto code_r0x06a7ea3c;
             }
           }
         }
@@ -98686,7 +98688,7 @@ code_r0x06a0b4c4:
           return 0x4cab468e;
         case Protocol__Enum_Clan_Create:
           uVar2 = 0x6aa0;
-code_r0x06a0b47c:
+code_r0x06a7ea3c:
           return uVar2 | 0x595f0000;
         case Protocol__Enum_Clan_Member:
           return 0x730a1de6;
@@ -98700,7 +98702,7 @@ code_r0x06a0b47c:
           return 0x3ad0efdb;
         case Protocol__Enum_Clan_Kick:
           uVar2 = 0x5177;
-          goto code_r0x06a0b4c4;
+          goto code_r0x06a7ea84;
         case Protocol__Enum_Clan_Setting:
           return 0x565cf23e;
         case Protocol__Enum_Clan_Confer:
@@ -99189,7 +99191,7 @@ code_r0x06a0b47c:
       }
     }
   }
-code_r0x06a0b67c:
+code_r0x06a7ec3c:
   return PVar1;
 }
 
@@ -99263,12 +99265,12 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion91
             case Protocol__Enum_None:
             case Protocol__Enum_Session_Info:
             case Protocol__Enum_NetworkTime_SyncReply:
-              goto code_r0x06a0d220;
+              goto code_r0x06a807e0;
             default:
               return protocol;
             }
           }
-code_r0x06a0cfc4:
+code_r0x06a80584:
           return uVar2 | 0x4f5b0000;
         }
         PVar1 = 0x36ad1bec;
@@ -99303,7 +99305,7 @@ code_r0x06a0cfc4:
             return 0x2447270d;
           case Protocol__Enum_Equipment_Sell:
             uVar2 = 0xea64;
-            goto code_r0x06a0cfc4;
+            goto code_r0x06a80584;
           case Protocol__Enum_Equipment_Equip:
             return 0x20d41cb1;
           case Protocol__Enum_Equipment_LevelUp:
@@ -99458,7 +99460,7 @@ code_r0x06a0cfc4:
           return 0x2add108;
         case Protocol__Enum_Shop_BuyGacha3:
           uVar2 = 0xc4d7;
-          goto code_r0x06a0d1b8;
+          goto code_r0x06a80778;
         case Protocol__Enum_Shop_BuyAP:
           return 0x135bc92b;
         case Protocol__Enum_Shop_BeforehandGachaGet:
@@ -99826,7 +99828,7 @@ code_r0x06a0cfc4:
           return 0x1ead4fa8;
         case Protocol__Enum_ContentSweep_SetMultiSweepPresetName:
           uVar2 = 0x541b;
-code_r0x06a0d1b8:
+code_r0x06a80778:
           return uVar2 | 0x4fb60000;
         default:
           if (protocol == Protocol__Enum_ContentSave_Discard) {
@@ -100282,7 +100284,7 @@ code_r0x06a0d1b8:
       }
     }
   }
-code_r0x06a0d220:
+code_r0x06a807e0:
   return PVar1;
 }
 
@@ -100355,7 +100357,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion92
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x06a0edc4;
+            goto code_r0x06a82384;
           default:
             return protocol;
           }
@@ -100521,7 +100523,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion92
           }
           if (protocol == Protocol__Enum_Attendance_Reward) {
             PVar1 = 0x534f;
-            goto code_r0x06a0e8ac;
+            goto code_r0x06a81e6c;
           }
         }
       }
@@ -101308,7 +101310,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion92
       switch(protocol) {
       case Protocol__Enum_Attachment_Get:
         PVar1 = 0x6faf;
-code_r0x06a0e8ac:
+code_r0x06a81e6c:
         return PVar1 | 0x2dd90000;
       case Protocol__Enum_Attachment_EmblemList:
         return 0x52581af1;
@@ -101368,7 +101370,7 @@ code_r0x06a0e8ac:
       }
     }
   }
-code_r0x06a0edc4:
+code_r0x06a82384:
   return PVar2;
 }
 
@@ -101440,7 +101442,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion93
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x06a10974;
+            goto code_r0x06a83f34;
           default:
             return protocol;
           }
@@ -102450,7 +102452,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion93
       }
     }
   }
-code_r0x06a10974:
+code_r0x06a83f34:
   return PVar1;
 }
 
@@ -102522,7 +102524,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion94
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x06a1251c;
+            goto code_r0x06a85adc;
           default:
             return protocol;
           }
@@ -103532,7 +103534,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion94
       }
     }
   }
-code_r0x06a1251c:
+code_r0x06a85adc:
   return PVar1;
 }
 
@@ -103604,7 +103606,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion95
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x06a140c4;
+            goto code_r0x06a87684;
           default:
             return protocol;
           }
@@ -104615,7 +104617,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion95
       }
     }
   }
-code_r0x06a140c4:
+code_r0x06a87684:
   return PVar1;
 }
 
@@ -104687,7 +104689,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion96
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x06a15c6c;
+            goto code_r0x06a8922c;
           default:
             return protocol;
           }
@@ -105697,7 +105699,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion96
       }
     }
   }
-code_r0x06a15c6c:
+code_r0x06a8922c:
   return PVar1;
 }
 
@@ -105769,7 +105771,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion97
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x06a17814;
+            goto code_r0x06a8add4;
           default:
             return protocol;
           }
@@ -106780,7 +106782,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion97
       }
     }
   }
-code_r0x06a17814:
+code_r0x06a8add4:
   return PVar1;
 }
 
@@ -106852,7 +106854,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion98
           case Protocol__Enum_None:
           case Protocol__Enum_Session_Info:
           case Protocol__Enum_NetworkTime_SyncReply:
-            goto code_r0x06a193bc;
+            goto code_r0x06a8c97c;
           default:
             return protocol;
           }
@@ -107863,7 +107865,7 @@ int32_t MX_NetworkProtocol_ProtocolConverter_typeConversion98
       }
     }
   }
-code_r0x06a193bc:
+code_r0x06a8c97c:
   return PVar1;
 }
 
