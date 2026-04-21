@@ -2934,6 +2934,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 0,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 1,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -5866,6 +5872,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 1,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 2,
@@ -8802,6 +8814,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 2,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 3,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -11734,6 +11752,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 3,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 4,
@@ -14670,6 +14694,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 4,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 5,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -17602,6 +17632,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 5,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 6,
@@ -20538,6 +20574,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 6,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 7,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -23470,6 +23512,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 7,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 8,
@@ -26406,6 +26454,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 8,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 9,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -29338,6 +29392,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 9,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 10,
@@ -32274,6 +32334,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 10,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 11,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -35206,6 +35272,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 11,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 12,
@@ -38142,6 +38214,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 12,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 13,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -41074,6 +41152,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 13,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 14,
@@ -44010,6 +44094,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 14,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 15,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -46942,6 +47032,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 15,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 16,
@@ -49878,6 +49974,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 16,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 17,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -52810,6 +52912,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 17,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 18,
@@ -55746,6 +55854,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 18,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 19,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -58678,6 +58792,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 19,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 20,
@@ -61614,6 +61734,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 20,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 21,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -64546,6 +64672,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 21,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 22,
@@ -67482,6 +67614,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 22,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 23,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -70414,6 +70552,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 23,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 24,
@@ -73350,6 +73494,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 24,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 25,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -76282,6 +76432,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 25,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 26,
@@ -79218,6 +79374,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 26,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 27,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -82150,6 +82312,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 27,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 28,
@@ -85086,6 +85254,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 28,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 29,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -88018,6 +88192,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 29,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 30,
@@ -90954,6 +91134,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 30,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 31,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -93886,6 +94072,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 31,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 32,
@@ -96822,6 +97014,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 32,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 33,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -99754,6 +99952,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 33,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 34,
@@ -102690,6 +102894,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 34,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 35,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -105622,6 +105832,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 35,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 36,
@@ -108558,6 +108774,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 36,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 37,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -111490,6 +111712,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 37,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 38,
@@ -114426,6 +114654,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 38,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 39,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -117358,6 +117592,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 39,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 40,
@@ -120294,6 +120534,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 40,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 41,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -123226,6 +123472,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 41,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 42,
@@ -126162,6 +126414,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 42,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 43,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -129094,6 +129352,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 43,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 44,
@@ -132030,6 +132294,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 44,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 45,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -134962,6 +135232,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 45,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 46,
@@ -137898,6 +138174,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 46,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 47,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -140830,6 +141112,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 47,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 48,
@@ -143766,6 +144054,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 48,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 49,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -146698,6 +146992,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 49,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 50,
@@ -149634,6 +149934,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 50,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 51,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -152566,6 +152872,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 51,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 52,
@@ -155502,6 +155814,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 52,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 53,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -158434,6 +158752,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 53,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 54,
@@ -161370,6 +161694,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 54,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 55,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -164302,6 +164632,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 55,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 56,
@@ -167238,6 +167574,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 56,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 57,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -170170,6 +170512,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 57,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 58,
@@ -173106,6 +173454,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 58,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 59,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -176038,6 +176392,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 59,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 60,
@@ -178974,6 +179334,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 60,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 61,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -181906,6 +182272,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 61,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 62,
@@ -184842,6 +185214,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 62,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 63,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -187774,6 +188152,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 63,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 64,
@@ -190710,6 +191094,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 64,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 65,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -193642,6 +194032,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 65,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 66,
@@ -196578,6 +196974,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 66,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 67,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -199510,6 +199912,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 67,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 68,
@@ -202446,6 +202854,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 68,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 69,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -205378,6 +205792,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 69,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 70,
@@ -208314,6 +208734,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 70,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 71,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -211246,6 +211672,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 71,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 72,
@@ -214182,6 +214614,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 72,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 73,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -217114,6 +217552,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 73,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 74,
@@ -220050,6 +220494,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 74,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 75,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -222982,6 +223432,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 75,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 76,
@@ -225918,6 +226374,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 76,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 77,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -228850,6 +229312,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 77,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 78,
@@ -231786,6 +232254,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 78,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 79,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -234718,6 +235192,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 79,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 80,
@@ -237654,6 +238134,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 80,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 81,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -240586,6 +241072,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 81,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 82,
@@ -243522,6 +244014,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 82,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 83,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -246454,6 +246952,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 83,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 84,
@@ -249390,6 +249894,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 84,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 85,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -252322,6 +252832,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 85,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 86,
@@ -255258,6 +255774,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 86,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 87,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -258190,6 +258712,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 87,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 88,
@@ -261126,6 +261654,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 88,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 89,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -264058,6 +264592,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 89,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 90,
@@ -266994,6 +267534,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 90,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 91,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -269926,6 +270472,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 91,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 92,
@@ -272862,6 +273414,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 92,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 93,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -275794,6 +276352,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 93,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 94,
@@ -278730,6 +279294,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 94,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 95,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -281662,6 +282232,12 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 95,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     },
     {
         "Crc": 96,
@@ -284598,6 +285174,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 96,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 97,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -287532,6 +288114,12 @@
         "Converted_Value": 54003
     },
     {
+        "Crc": 97,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
         "Crc": 98,
         "Protocol": -9999,
         "ProtocolName": "Common_Cheat",
@@ -290464,5 +291052,11 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 98,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
     }
 ]
