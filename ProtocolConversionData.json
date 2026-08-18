@@ -595,6 +595,12 @@
     },
     {
         "Crc": 0,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
+    },
+    {
+        "Crc": 0,
         "Protocol": 9000,
         "ProtocolName": "Attendance_List",
         "Converted_Value": 1768452302
@@ -2995,6 +3001,54 @@
     },
     {
         "Crc": 0,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 0,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 0,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 0,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 0,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 0,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 0,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 0,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 0,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -3598,6 +3652,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1510555900
+    },
+    {
+        "Crc": 1,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 1,
@@ -6001,6 +6061,54 @@
     },
     {
         "Crc": 1,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 1,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 1,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 1,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 1,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 1,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 1,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 1,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 1,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -6604,6 +6712,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1582265753
+    },
+    {
+        "Crc": 2,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 2,
@@ -9007,6 +9121,54 @@
     },
     {
         "Crc": 2,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 2,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 2,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 2,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 2,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 2,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 2,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 2,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 2,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -9610,6 +9772,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 844360802
+    },
+    {
+        "Crc": 3,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 3,
@@ -12013,6 +12181,54 @@
     },
     {
         "Crc": 3,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 3,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 3,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 3,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 3,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 3,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 3,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 3,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 3,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -12616,6 +12832,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1928075918
+    },
+    {
+        "Crc": 4,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 4,
@@ -15019,6 +15241,54 @@
     },
     {
         "Crc": 4,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 4,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 4,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 4,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 4,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 4,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 4,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 4,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 4,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -15622,6 +15892,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1525362176
+    },
+    {
+        "Crc": 5,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 5,
@@ -18025,6 +18301,54 @@
     },
     {
         "Crc": 5,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 5,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 5,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 5,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 5,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 5,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 5,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 5,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 5,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -18628,6 +18952,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1187414109
+    },
+    {
+        "Crc": 6,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 6,
@@ -21031,6 +21361,54 @@
     },
     {
         "Crc": 6,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 6,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 6,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 6,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 6,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 6,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 6,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 6,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 6,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -21634,6 +22012,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 2108828129
+    },
+    {
+        "Crc": 7,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 7,
@@ -24037,6 +24421,54 @@
     },
     {
         "Crc": 7,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 7,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 7,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 7,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 7,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 7,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 7,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 7,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 7,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -24640,6 +25072,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 995560787
+    },
+    {
+        "Crc": 8,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 8,
@@ -27043,6 +27481,54 @@
     },
     {
         "Crc": 8,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 8,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 8,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 8,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 8,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 8,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 8,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 8,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 8,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -27646,6 +28132,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 18280644
+    },
+    {
+        "Crc": 9,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 9,
@@ -30049,6 +30541,54 @@
     },
     {
         "Crc": 9,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 9,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 9,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 9,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 9,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 9,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 9,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 9,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 9,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -30652,6 +31192,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1668708737
+    },
+    {
+        "Crc": 10,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 10,
@@ -33055,6 +33601,54 @@
     },
     {
         "Crc": 10,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 10,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 10,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 10,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 10,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 10,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 10,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 10,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 10,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -33658,6 +34252,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1273561520
+    },
+    {
+        "Crc": 11,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 11,
@@ -36061,6 +36661,54 @@
     },
     {
         "Crc": 11,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 11,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 11,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 11,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 11,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 11,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 11,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 11,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 11,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -36664,6 +37312,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 2039250919
+    },
+    {
+        "Crc": 12,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 12,
@@ -39067,6 +39721,54 @@
     },
     {
         "Crc": 12,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 12,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 12,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 12,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 12,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 12,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 12,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 12,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 12,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -39670,6 +40372,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1694858780
+    },
+    {
+        "Crc": 13,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 13,
@@ -42073,6 +42781,54 @@
     },
     {
         "Crc": 13,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 13,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 13,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 13,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 13,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 13,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 13,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 13,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 13,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -42676,6 +43432,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1417651343
+    },
+    {
+        "Crc": 14,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 14,
@@ -45079,6 +45841,54 @@
     },
     {
         "Crc": 14,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 14,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 14,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 14,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 14,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 14,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 14,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 14,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 14,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -45682,6 +46492,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 161801637
+    },
+    {
+        "Crc": 15,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 15,
@@ -48085,6 +48901,54 @@
     },
     {
         "Crc": 15,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 15,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 15,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 15,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 15,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 15,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 15,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 15,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 15,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -48688,6 +49552,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 251238346
+    },
+    {
+        "Crc": 16,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 16,
@@ -51091,6 +51961,54 @@
     },
     {
         "Crc": 16,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 16,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 16,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 16,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 16,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 16,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 16,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 16,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 16,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -51694,6 +52612,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1033585675
+    },
+    {
+        "Crc": 17,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 17,
@@ -54097,6 +55021,54 @@
     },
     {
         "Crc": 17,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 17,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 17,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 17,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 17,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 17,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 17,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 17,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 17,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -54700,6 +55672,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 593595949
+    },
+    {
+        "Crc": 18,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 18,
@@ -57103,6 +58081,54 @@
     },
     {
         "Crc": 18,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 18,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 18,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 18,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 18,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 18,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 18,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 18,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 18,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -57706,6 +58732,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 29461011
+    },
+    {
+        "Crc": 19,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 19,
@@ -60109,6 +61141,54 @@
     },
     {
         "Crc": 19,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 19,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 19,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 19,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 19,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 19,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 19,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 19,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 19,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -60712,6 +61792,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1982488026
+    },
+    {
+        "Crc": 20,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 20,
@@ -63115,6 +64201,54 @@
     },
     {
         "Crc": 20,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 20,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 20,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 20,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 20,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 20,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 20,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 20,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 20,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -63718,6 +64852,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1338735062
+    },
+    {
+        "Crc": 21,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 21,
@@ -66121,6 +67261,54 @@
     },
     {
         "Crc": 21,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 21,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 21,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 21,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 21,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 21,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 21,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 21,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 21,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -66724,6 +67912,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 321692884
+    },
+    {
+        "Crc": 22,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 22,
@@ -69127,6 +70321,54 @@
     },
     {
         "Crc": 22,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 22,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 22,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 22,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 22,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 22,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 22,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 22,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 22,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -69730,6 +70972,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1308148647
+    },
+    {
+        "Crc": 23,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 23,
@@ -72133,6 +73381,54 @@
     },
     {
         "Crc": 23,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 23,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 23,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 23,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 23,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 23,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 23,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 23,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 23,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -72736,6 +74032,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1588217376
+    },
+    {
+        "Crc": 24,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 24,
@@ -75139,6 +76441,54 @@
     },
     {
         "Crc": 24,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 24,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 24,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 24,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 24,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 24,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 24,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 24,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 24,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -75742,6 +77092,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 629705589
+    },
+    {
+        "Crc": 25,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 25,
@@ -78145,6 +79501,54 @@
     },
     {
         "Crc": 25,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 25,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 25,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 25,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 25,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 25,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 25,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 25,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 25,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -78748,6 +80152,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 2112068324
+    },
+    {
+        "Crc": 26,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 26,
@@ -81151,6 +82561,54 @@
     },
     {
         "Crc": 26,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 26,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 26,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 26,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 26,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 26,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 26,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 26,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 26,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -81754,6 +83212,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 554517778
+    },
+    {
+        "Crc": 27,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 27,
@@ -84157,6 +85621,54 @@
     },
     {
         "Crc": 27,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 27,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 27,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 27,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 27,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 27,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 27,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 27,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 27,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -84760,6 +86272,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 179157854
+    },
+    {
+        "Crc": 28,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 28,
@@ -87163,6 +88681,54 @@
     },
     {
         "Crc": 28,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 28,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 28,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 28,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 28,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 28,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 28,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 28,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 28,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -87766,6 +89332,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 899277565
+    },
+    {
+        "Crc": 29,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 29,
@@ -90169,6 +91741,54 @@
     },
     {
         "Crc": 29,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 29,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 29,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 29,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 29,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 29,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 29,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 29,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 29,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -90772,6 +92392,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 216823539
+    },
+    {
+        "Crc": 30,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 30,
@@ -93175,6 +94801,54 @@
     },
     {
         "Crc": 30,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 30,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 30,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 30,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 30,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 30,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 30,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 30,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 30,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -93778,6 +95452,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1304296781
+    },
+    {
+        "Crc": 31,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 31,
@@ -96181,6 +97861,54 @@
     },
     {
         "Crc": 31,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 31,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 31,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 31,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 31,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 31,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 31,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 31,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 31,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -96784,6 +98512,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1934119245
+    },
+    {
+        "Crc": 32,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 32,
@@ -99187,6 +100921,54 @@
     },
     {
         "Crc": 32,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 32,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 32,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 32,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 32,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 32,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 32,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 32,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 32,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -99790,6 +101572,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 806541438
+    },
+    {
+        "Crc": 33,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 33,
@@ -102193,6 +103981,54 @@
     },
     {
         "Crc": 33,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 33,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 33,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 33,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 33,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 33,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 33,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 33,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 33,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -102796,6 +104632,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 161583790
+    },
+    {
+        "Crc": 34,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 34,
@@ -105199,6 +107041,54 @@
     },
     {
         "Crc": 34,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 34,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 34,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 34,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 34,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 34,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 34,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 34,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 34,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -105802,6 +107692,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 649542292
+    },
+    {
+        "Crc": 35,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 35,
@@ -108205,6 +110101,54 @@
     },
     {
         "Crc": 35,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 35,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 35,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 35,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 35,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 35,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 35,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 35,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 35,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -108808,6 +110752,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 891024449
+    },
+    {
+        "Crc": 36,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 36,
@@ -111211,6 +113161,54 @@
     },
     {
         "Crc": 36,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 36,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 36,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 36,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 36,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 36,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 36,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 36,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 36,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -111814,6 +113812,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 679432423
+    },
+    {
+        "Crc": 37,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 37,
@@ -114217,6 +116221,54 @@
     },
     {
         "Crc": 37,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 37,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 37,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 37,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 37,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 37,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 37,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 37,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 37,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -114820,6 +116872,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 2063102123
+    },
+    {
+        "Crc": 38,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 38,
@@ -117223,6 +119281,54 @@
     },
     {
         "Crc": 38,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 38,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 38,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 38,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 38,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 38,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 38,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 38,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 38,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -117826,6 +119932,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1645358743
+    },
+    {
+        "Crc": 39,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 39,
@@ -120229,6 +122341,54 @@
     },
     {
         "Crc": 39,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 39,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 39,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 39,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 39,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 39,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 39,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 39,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 39,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -120832,6 +122992,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1427057100
+    },
+    {
+        "Crc": 40,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 40,
@@ -123235,6 +125401,54 @@
     },
     {
         "Crc": 40,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 40,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 40,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 40,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 40,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 40,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 40,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 40,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 40,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -123838,6 +126052,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1026005609
+    },
+    {
+        "Crc": 41,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 41,
@@ -126241,6 +128461,54 @@
     },
     {
         "Crc": 41,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 41,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 41,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 41,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 41,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 41,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 41,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 41,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 41,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -126844,6 +129112,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 222990722
+    },
+    {
+        "Crc": 42,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 42,
@@ -129247,6 +131521,54 @@
     },
     {
         "Crc": 42,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 42,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 42,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 42,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 42,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 42,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 42,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 42,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 42,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -129850,6 +132172,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1213781749
+    },
+    {
+        "Crc": 43,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 43,
@@ -132253,6 +134581,54 @@
     },
     {
         "Crc": 43,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 43,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 43,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 43,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 43,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 43,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 43,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 43,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 43,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -132856,6 +135232,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 2117869158
+    },
+    {
+        "Crc": 44,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 44,
@@ -135259,6 +137641,54 @@
     },
     {
         "Crc": 44,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 44,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 44,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 44,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 44,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 44,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 44,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 44,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 44,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -135862,6 +138292,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 823649916
+    },
+    {
+        "Crc": 45,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 45,
@@ -138265,6 +140701,54 @@
     },
     {
         "Crc": 45,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 45,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 45,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 45,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 45,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 45,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 45,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 45,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 45,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -138868,6 +141352,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 802704951
+    },
+    {
+        "Crc": 46,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 46,
@@ -141271,6 +143761,54 @@
     },
     {
         "Crc": 46,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 46,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 46,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 46,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 46,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 46,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 46,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 46,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 46,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -141874,6 +144412,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 665136764
+    },
+    {
+        "Crc": 47,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 47,
@@ -144277,6 +146821,54 @@
     },
     {
         "Crc": 47,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 47,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 47,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 47,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 47,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 47,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 47,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 47,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 47,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -144880,6 +147472,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 2086202840
+    },
+    {
+        "Crc": 48,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 48,
@@ -147283,6 +149881,54 @@
     },
     {
         "Crc": 48,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 48,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 48,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 48,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 48,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 48,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 48,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 48,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 48,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -147886,6 +150532,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1635693646
+    },
+    {
+        "Crc": 49,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 49,
@@ -150289,6 +152941,54 @@
     },
     {
         "Crc": 49,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 49,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 49,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 49,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 49,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 49,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 49,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 49,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 49,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -150892,6 +153592,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 274074488
+    },
+    {
+        "Crc": 50,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 50,
@@ -153295,6 +156001,54 @@
     },
     {
         "Crc": 50,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 50,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 50,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 50,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 50,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 50,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 50,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 50,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 50,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -153898,6 +156652,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1991539963
+    },
+    {
+        "Crc": 51,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 51,
@@ -156301,6 +159061,54 @@
     },
     {
         "Crc": 51,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 51,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 51,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 51,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 51,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 51,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 51,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 51,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 51,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -156904,6 +159712,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1456399938
+    },
+    {
+        "Crc": 52,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 52,
@@ -159307,6 +162121,54 @@
     },
     {
         "Crc": 52,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 52,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 52,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 52,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 52,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 52,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 52,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 52,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 52,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -159910,6 +162772,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1587990012
+    },
+    {
+        "Crc": 53,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 53,
@@ -162313,6 +165181,54 @@
     },
     {
         "Crc": 53,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 53,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 53,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 53,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 53,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 53,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 53,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 53,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 53,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -162916,6 +165832,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1608073655
+    },
+    {
+        "Crc": 54,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 54,
@@ -165319,6 +168241,54 @@
     },
     {
         "Crc": 54,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 54,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 54,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 54,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 54,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 54,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 54,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 54,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 54,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -165922,6 +168892,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 739612589
+    },
+    {
+        "Crc": 55,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 55,
@@ -168325,6 +171301,54 @@
     },
     {
         "Crc": 55,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 55,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 55,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 55,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 55,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 55,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 55,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 55,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 55,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -168928,6 +171952,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 747625715
+    },
+    {
+        "Crc": 56,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 56,
@@ -171331,6 +174361,54 @@
     },
     {
         "Crc": 56,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 56,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 56,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 56,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 56,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 56,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 56,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 56,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 56,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -171934,6 +175012,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 2103397391
+    },
+    {
+        "Crc": 57,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 57,
@@ -174337,6 +177421,54 @@
     },
     {
         "Crc": 57,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 57,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 57,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 57,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 57,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 57,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 57,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 57,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 57,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -174940,6 +178072,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 17139952
+    },
+    {
+        "Crc": 58,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 58,
@@ -177343,6 +180481,54 @@
     },
     {
         "Crc": 58,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 58,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 58,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 58,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 58,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 58,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 58,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 58,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 58,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -177946,6 +181132,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1671463449
+    },
+    {
+        "Crc": 59,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 59,
@@ -180349,6 +183541,54 @@
     },
     {
         "Crc": 59,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 59,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 59,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 59,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 59,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 59,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 59,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 59,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 59,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -180952,6 +184192,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1151839515
+    },
+    {
+        "Crc": 60,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 60,
@@ -183355,6 +186601,54 @@
     },
     {
         "Crc": 60,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 60,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 60,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 60,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 60,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 60,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 60,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 60,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 60,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -183958,6 +187252,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 289455979
+    },
+    {
+        "Crc": 61,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 61,
@@ -186361,6 +189661,54 @@
     },
     {
         "Crc": 61,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 61,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 61,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 61,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 61,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 61,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 61,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 61,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 61,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -186964,6 +190312,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1252247394
+    },
+    {
+        "Crc": 62,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 62,
@@ -189367,6 +192721,54 @@
     },
     {
         "Crc": 62,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 62,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 62,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 62,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 62,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 62,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 62,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 62,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 62,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -189970,6 +193372,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1748387196
+    },
+    {
+        "Crc": 63,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 63,
@@ -192373,6 +195781,54 @@
     },
     {
         "Crc": 63,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 63,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 63,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 63,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 63,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 63,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 63,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 63,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 63,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -192976,6 +196432,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1653599861
+    },
+    {
+        "Crc": 64,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 64,
@@ -195379,6 +198841,54 @@
     },
     {
         "Crc": 64,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 64,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 64,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 64,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 64,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 64,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 64,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 64,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 64,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -195982,6 +199492,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 827185556
+    },
+    {
+        "Crc": 65,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 65,
@@ -198385,6 +201901,54 @@
     },
     {
         "Crc": 65,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 65,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 65,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 65,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 65,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 65,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 65,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 65,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 65,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -198988,6 +202552,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 649450148
+    },
+    {
+        "Crc": 66,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 66,
@@ -201391,6 +204961,54 @@
     },
     {
         "Crc": 66,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 66,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 66,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 66,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 66,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 66,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 66,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 66,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 66,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -201994,6 +205612,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1275380005
+    },
+    {
+        "Crc": 67,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 67,
@@ -204397,6 +208021,54 @@
     },
     {
         "Crc": 67,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 67,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 67,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 67,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 67,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 67,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 67,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 67,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 67,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -205000,6 +208672,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 748474370
+    },
+    {
+        "Crc": 68,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 68,
@@ -207403,6 +211081,54 @@
     },
     {
         "Crc": 68,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 68,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 68,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 68,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 68,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 68,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 68,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 68,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 68,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -208006,6 +211732,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 75196959
+    },
+    {
+        "Crc": 69,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 69,
@@ -210409,6 +214141,54 @@
     },
     {
         "Crc": 69,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 69,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 69,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 69,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 69,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 69,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 69,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 69,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 69,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -211012,6 +214792,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 74417666
+    },
+    {
+        "Crc": 70,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 70,
@@ -213415,6 +217201,54 @@
     },
     {
         "Crc": 70,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 70,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 70,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 70,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 70,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 70,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 70,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 70,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 70,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -214018,6 +217852,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 323004151
+    },
+    {
+        "Crc": 71,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 71,
@@ -216421,6 +220261,54 @@
     },
     {
         "Crc": 71,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 71,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 71,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 71,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 71,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 71,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 71,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 71,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 71,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -217024,6 +220912,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1632821191
+    },
+    {
+        "Crc": 72,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 72,
@@ -219427,6 +223321,54 @@
     },
     {
         "Crc": 72,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 72,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 72,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 72,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 72,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 72,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 72,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 72,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 72,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -220030,6 +223972,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1410838883
+    },
+    {
+        "Crc": 73,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 73,
@@ -222433,6 +226381,54 @@
     },
     {
         "Crc": 73,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 73,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 73,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 73,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 73,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 73,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 73,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 73,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 73,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -223036,6 +227032,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1266489850
+    },
+    {
+        "Crc": 74,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 74,
@@ -225439,6 +229441,54 @@
     },
     {
         "Crc": 74,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 74,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 74,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 74,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 74,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 74,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 74,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 74,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 74,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -226042,6 +230092,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1799726580
+    },
+    {
+        "Crc": 75,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 75,
@@ -228445,6 +232501,54 @@
     },
     {
         "Crc": 75,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 75,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 75,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 75,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 75,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 75,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 75,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 75,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 75,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -229048,6 +233152,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 184490498
+    },
+    {
+        "Crc": 76,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 76,
@@ -231451,6 +235561,54 @@
     },
     {
         "Crc": 76,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 76,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 76,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 76,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 76,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 76,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 76,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 76,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 76,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -232054,6 +236212,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1894940725
+    },
+    {
+        "Crc": 77,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 77,
@@ -234457,6 +238621,54 @@
     },
     {
         "Crc": 77,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 77,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 77,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 77,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 77,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 77,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 77,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 77,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 77,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -235060,6 +239272,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 474753618
+    },
+    {
+        "Crc": 78,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 78,
@@ -237463,6 +241681,54 @@
     },
     {
         "Crc": 78,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 78,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 78,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 78,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 78,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 78,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 78,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 78,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 78,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -238066,6 +242332,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1636719996
+    },
+    {
+        "Crc": 79,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 79,
@@ -240469,6 +244741,54 @@
     },
     {
         "Crc": 79,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 79,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 79,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 79,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 79,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 79,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 79,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 79,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 79,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -241072,6 +245392,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1741898778
+    },
+    {
+        "Crc": 80,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 80,
@@ -243475,6 +247801,54 @@
     },
     {
         "Crc": 80,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 80,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 80,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 80,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 80,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 80,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 80,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 80,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 80,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -244078,6 +248452,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1796689626
+    },
+    {
+        "Crc": 81,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 81,
@@ -246481,6 +250861,54 @@
     },
     {
         "Crc": 81,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 81,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 81,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 81,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 81,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 81,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 81,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 81,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 81,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -247084,6 +251512,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 2125465257
+    },
+    {
+        "Crc": 82,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 82,
@@ -249487,6 +253921,54 @@
     },
     {
         "Crc": 82,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 82,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 82,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 82,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 82,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 82,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 82,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 82,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 82,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -250090,6 +254572,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1399743078
+    },
+    {
+        "Crc": 83,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 83,
@@ -252493,6 +256981,54 @@
     },
     {
         "Crc": 83,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 83,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 83,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 83,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 83,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 83,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 83,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 83,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 83,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -253096,6 +257632,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 21815845
+    },
+    {
+        "Crc": 84,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 84,
@@ -255499,6 +260041,54 @@
     },
     {
         "Crc": 84,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 84,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 84,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 84,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 84,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 84,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 84,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 84,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 84,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -256102,6 +260692,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1368053823
+    },
+    {
+        "Crc": 85,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 85,
@@ -258505,6 +263101,54 @@
     },
     {
         "Crc": 85,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 85,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 85,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 85,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 85,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 85,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 85,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 85,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 85,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -259108,6 +263752,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 2118997867
+    },
+    {
+        "Crc": 86,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 86,
@@ -261511,6 +266161,54 @@
     },
     {
         "Crc": 86,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 86,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 86,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 86,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 86,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 86,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 86,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 86,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 86,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -262114,6 +266812,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1818801829
+    },
+    {
+        "Crc": 87,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 87,
@@ -264517,6 +269221,54 @@
     },
     {
         "Crc": 87,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 87,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 87,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 87,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 87,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 87,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 87,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 87,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 87,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -265120,6 +269872,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1613731040
+    },
+    {
+        "Crc": 88,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 88,
@@ -267523,6 +272281,54 @@
     },
     {
         "Crc": 88,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 88,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 88,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 88,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 88,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 88,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 88,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 88,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 88,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -268126,6 +272932,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 2099089552
+    },
+    {
+        "Crc": 89,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 89,
@@ -270529,6 +275341,54 @@
     },
     {
         "Crc": 89,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 89,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 89,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 89,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 89,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 89,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 89,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 89,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 89,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -271132,6 +275992,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1829221914
+    },
+    {
+        "Crc": 90,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 90,
@@ -273535,6 +278401,54 @@
     },
     {
         "Crc": 90,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 90,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 90,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 90,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 90,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 90,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 90,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 90,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 90,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -274138,6 +279052,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1941669396
+    },
+    {
+        "Crc": 91,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 91,
@@ -276541,6 +281461,54 @@
     },
     {
         "Crc": 91,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 91,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 91,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 91,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 91,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 91,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 91,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 91,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 91,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -277144,6 +282112,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 349023154
+    },
+    {
+        "Crc": 92,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 92,
@@ -279547,6 +284521,54 @@
     },
     {
         "Crc": 92,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 92,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 92,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 92,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 92,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 92,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 92,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 92,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 92,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -280150,6 +285172,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 727086267
+    },
+    {
+        "Crc": 93,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 93,
@@ -282553,6 +287581,54 @@
     },
     {
         "Crc": 93,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 93,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 93,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 93,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 93,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 93,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 93,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 93,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 93,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -283156,6 +288232,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 718151874
+    },
+    {
+        "Crc": 94,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 94,
@@ -285559,6 +290641,54 @@
     },
     {
         "Crc": 94,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 94,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 94,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 94,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 94,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 94,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 94,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 94,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 94,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -286162,6 +291292,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 822349666
+    },
+    {
+        "Crc": 95,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 95,
@@ -288565,6 +293701,54 @@
     },
     {
         "Crc": 95,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 95,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 95,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 95,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 95,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 95,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 95,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 95,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 95,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -289168,6 +294352,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1793843083
+    },
+    {
+        "Crc": 96,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 96,
@@ -291571,6 +296761,54 @@
     },
     {
         "Crc": 96,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 96,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 96,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 96,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 96,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 96,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 96,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 96,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 96,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -292174,6 +297412,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 739562338
+    },
+    {
+        "Crc": 97,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 97,
@@ -294577,6 +299821,54 @@
     },
     {
         "Crc": 97,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 97,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 97,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 97,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 97,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 97,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 97,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 97,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
+    },
+    {
+        "Crc": 97,
         "Protocol": 100000,
         "ProtocolName": "Management_BannerList",
         "Converted_Value": 100000
@@ -295180,6 +300472,12 @@
         "Protocol": 8006,
         "ProtocolName": "Mission_GuideMissionSeasonList",
         "Converted_Value": 1586289686
+    },
+    {
+        "Crc": 98,
+        "Protocol": 8007,
+        "ProtocolName": "Mission_NotifyUIEntered",
+        "Converted_Value": 8007
     },
     {
         "Crc": 98,
@@ -297580,6 +302878,54 @@
         "Protocol": 54003,
         "ProtocolName": "PermanentRaid_GiveUp",
         "Converted_Value": 54003
+    },
+    {
+        "Crc": 98,
+        "Protocol": 55000,
+        "ProtocolName": "SNS_PostRead",
+        "Converted_Value": 55000
+    },
+    {
+        "Crc": 98,
+        "Protocol": 56000,
+        "ProtocolName": "WelcomeCampaign_GetInfo",
+        "Converted_Value": 56000
+    },
+    {
+        "Crc": 98,
+        "Protocol": 56001,
+        "ProtocolName": "WelcomeCampaign_ReceiveEnterReward",
+        "Converted_Value": 56001
+    },
+    {
+        "Crc": 98,
+        "Protocol": 56002,
+        "ProtocolName": "WelcomeCampaign_AttendanceReward",
+        "Converted_Value": 56002
+    },
+    {
+        "Crc": 98,
+        "Protocol": 56003,
+        "ProtocolName": "WelcomeCampaign_MissionList",
+        "Converted_Value": 56003
+    },
+    {
+        "Crc": 98,
+        "Protocol": 56004,
+        "ProtocolName": "WelcomeCampaign_MissionReward",
+        "Converted_Value": 56004
+    },
+    {
+        "Crc": 98,
+        "Protocol": 56005,
+        "ProtocolName": "WelcomeCampaign_MissionMultipleReward",
+        "Converted_Value": 56005
+    },
+    {
+        "Crc": 98,
+        "Protocol": 56006,
+        "ProtocolName": "WelcomeCampaign_Check",
+        "Converted_Value": 56006
     },
     {
         "Crc": 98,
